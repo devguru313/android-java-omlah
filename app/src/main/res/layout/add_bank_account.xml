@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/holderNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/AccountHolderName"
+        android:inputType="textCapSentences"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="15sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/red" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/bankNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameLayout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/BankName"
+        android:inputType="textCapSentences"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="15sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/red" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/acountNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:digits="0123456789"
+        android:maxLength="15"
+        android:hint="@string/AccountNumber"
+        android:inputType="phone"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="15sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/red" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/enterAmountLayout"
+        android:background="@drawable/gradient_corner"
+        android:text="@string/Add"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+</LinearLayout>

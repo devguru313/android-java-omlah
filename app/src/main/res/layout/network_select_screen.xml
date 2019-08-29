@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/networkListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/actionBarLayout"
+        android:divider="@null"></ListView>
+
+    <TextView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:drawableTop="@drawable/timer"
+        android:gravity="center"
+        android:text="@string/Nearbynetworkwillappearhere"
+        android:visibility="gone" />
+
+</RelativeLayout>

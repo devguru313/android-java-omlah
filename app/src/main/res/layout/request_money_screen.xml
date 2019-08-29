@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/ConfirmDetails"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/mobileNumberLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/mobileNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:digits="0123456789"
+            android:hint="@string/MobileNumber"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            android:textSize="14sp"
+            app:met_baseColor="@color/black"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="15"
+            app:met_primaryColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/contactImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/contacts_icon" />
+
+    </RelativeLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Amount"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="14sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/gray" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/description"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="14sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/gray" />
+
+    <Button
+        android:id="@+id/payNowButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradient_corner"
+        android:text="@string/Requestnow"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

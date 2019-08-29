@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/actionBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:elevation="5dp">
+
+            <ImageView
+                android:id="@+id/backIconImageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="16dp"
+                app:srcCompat="@drawable/back_arrow"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/actionBarTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/backIconImageView"
+                android:layout_toRightOf="@+id/backIconImageView"
+                android:fontFamily="@font/normal"
+                android:text="@string/Profile"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/resetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="65dp"
+                android:layout_marginRight="65dp"
+                android:gravity="center"
+                android:text="RESET"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <com.omlah.customer.common.RoundedImageView
+                    android:id="@+id/profileImageView"
+                    android:layout_width="155dp"
+                    android:layout_height="155dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/contact_user"
+                    android:padding="0.1dp" />
+
+                <ImageView
+                    android:id="@+id/changeImageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/white_round"
+                    android:elevation="10dp"
+                    android:padding="15dp"
+                    android:src="@drawable/edit_icon" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:hint="@string/FirstName"
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            android:textSize="13sp"
+            app:met_baseColor="@color/black"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/red" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameLayout"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            android:textSize="13sp"
+            app:met_baseColor="@color/black"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/red" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/numberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailEditText"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/MobileNumber"
+            android:inputType="phone"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            android:textSize="13sp"
+            app:met_baseColor="@color/black"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/red" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/countryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numberEditText"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/SelectYourCountry"
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/text_cursor_cyan"
+            android:textSize="13sp"
+            android:visibility="gone"
+            app:met_baseColor="@color/black"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/red" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Update"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

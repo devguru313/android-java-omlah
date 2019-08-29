@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/additionalFeeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/PopPayFee"
+        android:fontFamily="@font/regular"
+        android:textColor="#60000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/additionalFeeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="NIL"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

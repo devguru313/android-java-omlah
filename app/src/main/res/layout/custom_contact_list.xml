@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/contactLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingRight="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/contactsImageView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:background="@drawable/white_circle"
+        android:src="@drawable/contact_user" />
+
+    <RelativeLayout
+        android:id="@+id/contactsDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/payNowTextView"
+        android:layout_toStartOf="@+id/payNowTextView"
+        android:layout_toRightOf="@+id/contactsImageView"
+        android:layout_toEndOf="@+id/contactsImageView">
+
+
+        <TextView
+            android:id="@+id/contactNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sarath kumar"
+            android:textSize="13sp"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColor="@color/black"/>
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccpPicker"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:ccp_countryPreference="et,us"
+            app:ccp_hintExampleNumber="true" />
+
+        <EditText
+            android:id="@+id/numberEditText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/contactNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0123456789"
+            android:background="@android:color/transparent"
+            android:textSize="12sp"
+            android:layout_marginTop="7dp"
+            android:singleLine="true"
+            android:fontFamily="@font/normal"
+            android:layout_below="@+id/contactNameTextView" />
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/payNowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PayNow"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/normal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="13sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/contactsImageView"
+        android:layout_toEndOf="@+id/contactsImageView"/>
+
+</RelativeLayout>

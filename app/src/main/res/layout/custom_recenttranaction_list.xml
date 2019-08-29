@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/paid" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/typeImageView"
+        android:layout_toRightOf="@+id/typeImageView">
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paid for Shop"
+        android:textSize="12sp"
+        android:fontFamily="@font/normal"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/amountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textSize="12sp"
+        android:fontFamily="@font/normal"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/shopNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----------"
+        android:textSize="11sp"
+        android:fontFamily="@font/normal"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/typeTextView" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:textSize="11sp"
+        android:fontFamily="@font/normal"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/shopNameTextView" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pending"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_below="@+id/shopNameTextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/black"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_below="@+id/typeImageView"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/typeImageView"
+        android:layout_toRightOf="@+id/typeImageView"/>
+
+</RelativeLayout>

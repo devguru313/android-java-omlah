@@ -1,0 +1,570 @@
+<resources>
+    <string name="app_name">Omlah</string>
+    <string name="appname">Omlah</string>
+    <string name="offer">Offer</string>
+    <string name="facebook_app_id" translatable="false" >1667681846678610</string>
+    <string name="SELECTALANGUAGE">SELECT A LANGUAGE</string>
+    <string name="Earned">Earned</string>
+    <string name="AddBankAccountScreen">Add Bank Account</string>
+    <string name="PaymentDetails">Payment Details</string>
+    <string name="Select">Select</string>
+    <string name="SelectPaymentMode">Select Payment Mode</string>
+    <string name="AmountPayable">Amount Payable</string>
+    <string name="VIEWALLCARDS">VIEW ALL CARDS</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+
+
+    <!--****************************SPLASH SCREEN**********************************-->
+    <string name="DigitalPaymentSolution">Digital Payment Solution</string>
+    <string name="NEWUPDATE">NEW UPDATE</string>
+    <string name="UpdateNow">Update Now</string>
+    <string name="NOTNOW">NOT NOW</string>
+    <!--****************************INTRO SCREEN**********************************-->
+    <string name="string_first">Send and Receive Payments</string>
+    <string name="string_second">Scan and Pay Merchants</string>
+    <string name="string_third">Book Events Tickets</string>
+    <string name="string_forth">Instant Recharge Anytime</string>
+    <string name="content_Zero">UAE first Digital Payment Solution</string>
+    <string name="content_first">Use  Pay to send, receive payments for your online transactions</string>
+    <string name="content_second">Pay using “scan and pay” feature within fraction of seconds</string>
+    <string name="content_third">You can book tickets for the events posted by merchants</string>
+    <string name="content_forth">Instant transaction, bill payment is possible at anytime &amp; anywhere</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="REGISTER">REGISTER</string>
+
+    <!--*************************** GetStarted Screen***********************************-->
+    <string name="GetStarted">Get Started</string>
+    <string name="MobileNumber">Mobile Number</string>
+    <string name="Continue">Continue</string>
+    <string name="LoginDes">Login into  to enjoy a seamless payment \n experience with awesome offers!</string>
+    <string name="EnterValidNumber">Please enter a valid number</string>
+
+    <!--*************************** Signup Screen***********************************-->
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email id</string>
+    <string name="SelectYourCountry">Select your country</string>
+    <string name="ReferCode">Refer Code</string>
+    <string name="Password">Password</string>
+    <string name="EnterFirstName">Please enter a first name</string>
+    <string name="EnterLastName">Please enter a last name</string>
+    <string name="EnterEmail">Please enter a email</string>
+    <string name="EnterValidEmail">Please enter a valid email</string>
+    <string name="EnterNumber">Please enter a number</string>
+    <string name="EnterCountry">Please select a country</string>
+    <string name="EnterPassword">Please enter a password</string>
+    <string name="Invalidreferralcode">Invalid referral code</string>
+    <string name="EnterValidReferCode">Please enter valid refer code</string>
+    <string name="ResetPasswordText">Password should have a minimum of 6 characters, at least one numeric and one non-numeric character.</string>
+    <string name="UpdatePlayService">Please update your google play service!!!</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+
+    <!--*************************** Login Screen***********************************-->
+    <string name="WelcomeBack">Welcome Back!</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="EnterMobileNumber">Please enter a mobile number</string>
+    <string name="ClearExitSession">Clear exist session to login</string>
+    <string name="OTPsent">OTP sent successfully in your registered number and email</string>
+
+
+
+
+    <string name="LogoutForOtherDevice">Logout for other device</string>
+    <string name="AlreadyYouLoggedIn">Already you logged-in another device, so please click ok to continue this device.</string>
+    <string name="AreYouSureWantToExit">Are you sure want to exit</string>
+    <string name="SCANQRCODE">SCAN QR CODE</string>
+    <string name="FINDNEARBY">FIND NEAR BY</string>
+    <string name="PAYNOW">PAY NOW</string>
+    <string name="RECEIVE">RECEIVE</string>
+    <string name="RequestMoney">Request Money</string>
+    <string name="Myfamilyfriendlist">My family &amp; friend\'s list</string>
+    <string name="Yourbeneficiarylistisempty">Your beneficiary list is empty</string>
+    <string name="SendMoney">Send Money</string>
+    <string name="Pleasetryagain">Please try again..</string>
+
+
+    <string name="ORSIGNUP">OR SIGN IN WITH</string>
+    <string name="Facebook">FACEBOOK</string>
+    <string name="Google">GOOGLE</string>
+    <string name="PleaseEnterNewPin">Please enter a new pin</string>
+    <string name="PleaseEnterOTP">Please enter a OTP</string>
+    <string name="PleaseEnterValidOTP">Please enter a valid OTP</string>
+    <string name="PinChanged">Security pin changed successfully</string>
+    <string name="CheckregesteredEmail">Check OTP on your registered mobile number or regestered email.</string>
+    <string name="ConfirmPayment">Confirm Payment</string>
+    <string name="PleaseEnterValidAmountYouHave">Please enter valid amount, you have</string>
+    <string name="RemainingYourWallet">remaining in your wallet.</string>
+    <string name="WouldYouLikeAddTip">Would you like to add a tip</string>
+    <string name="Youget">You get</string>
+    <string name="RewardPointsAfterPaymentSuccess">reward points after payment success</string>
+    <string name="ShopName">Shop Name</string>
+    <string name="AmountPay">Amount Pay</string>
+
+
+    <!--****************************FORGOT PASSWORD SCREEN**********************************-->
+    <string name="ResetPassword">RESET PASSWORD</string>
+    <string name="ResetSecurityPin">RESET SECURITY PIN</string>
+    <string name="NewPassword">New Password</string>
+    <string name="NewSecurityPin">New security pin</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="OTP">OTP</string>
+    <string name="CheckOTP">Check OTP on your registered mobile number or regestered email.</string>
+    <string name="ENTERNEWPASSWORD">Please enter a new password</string>
+    <string name="ENTEROTP">Please enter a OTP</string>
+    <string name="ENTERVALIDOTP">Please enter a valid OTP</string>
+
+    <!--****************************PASSCODE SCREEN**********************************-->
+    <string name="TouchIDPasscode">Touch ID or Enter security pin</string>
+    <string name="EnterPin">Please enter your security pin</string>
+    <string name="CreatePin">Create your Security Pin</string>
+    <string name="SecureAccess">this code will secure access to your</string>
+    <string name="PersonalData">personal data</string>
+    <string name="ForgotPin">FORGET PIN?</string>
+    <string name="Reenter">Please re-enter a correct security pin</string>
+    <string name="ConfirmSecurityPin">Confirm your security pin</string>
+    <string name="NewPin">Create your new security pin</string>
+    <string name="OldPin">Please enter your old security pin</string>
+    <string name="OTPsentsuccessfully">OTP sent successfully</string>
+    <string name="Delete">Delete</string>
+    <!--****************************OTP  SCREEN**********************************-->
+    <string name="OTPVerification">OTP VERIFICATION</string>
+    <string name="OTPBanner">Sit back &amp; Relax! while we verify your \n mobile number</string>
+    <string name="OtpToast">( Enter the OTP below in case if we fail to detect the \n SMS automatically )</string>
+    <string name="ResendCode">TAP TO RESEND CODE</string>
+
+    <!--****************************BASE SCREEN**********************************-->
+    <string name="Home">Home</string>
+    <string name="Nearby">Stores</string>
+    <string name="Feeds">Feeds</string>
+    <string name="Events">Events</string>
+    <string name="Stores">Stores</string>
+    <string name="More">More</string>
+<string name="RPay">RPay</string>
+    <!--***************************HOME  SCREEN ***********************************-->
+    <string name="WalletBalance">Wallet Balance</string>
+    <string name="BalanceDetails">R Points></string>
+    <string name="ADDMONEY">ADD MONEY</string>
+    <string name="PopCoins">Pop Coins</string>
+    <string name="POPPAYNOW"> NOW</string>
+    <string name="RecentTransaction">Recent Transaction</string>
+    <string name="Send">Send</string>
+    <string name="Request">Request</string>
+    <string name="WALLET">WALLET</string>
+    <string name="COUPONS">COUPONS</string>
+    <string name="Coupons">Coupons</string>
+    <string name="Offers">Offers</string>
+    <string name="RECHARGE">RECHARGE</string>
+    <string name="BILLPAYMENT">BILL PAYMENTS</string>
+    <string name="TRANSACTIONS">TRANSACTIONS</string>
+    <string name="REFERRAL">REFERRAL</string>
+    <string name="REWARDS">REWARDS</string>
+    <string name="BillPayment">Bill Payments</string>
+    <string name="ComingSoon">Coming Soon...</string>
+    <string name="SelectNetwork">Select Network</string>
+    <string name="Recharge">Recharge</string>
+    <string name="YouRecentRewardsWillAppearHere">You recent rewards \n will appear here</string>
+    <string name="RechargeBillPaymentsampmore">Recharge, Bill Payments &amp; more</string>
+    <string name="Earn200morepointstoredeemalenovaLaptop">Earn 200 more points to redeem a lenova Laptop</string>
+    <string name="pleaseenteraamount">please enter a amount</string>
+    <string name="pleaseenteravalidamount">please enter a valid amount</string>
+    <string name="Thisdeviceisnotsupported">This device is not supported.</string>
+    <string name="Sessionexpiredpleaselogintocontinue">Session expired, please login to continue</string>
+    <string name="DealsNearbyyou">Deals Nearby you</string>
+    <!--****************************MORE SCREEN**********************************-->
+    <string name="Mywallet">My Wallet</string>
+    <string name="MyAccount">My Profile</string>
+    <string name="MyAccountDes">Manage your profile information here.</string>
+    <string name="MyWalletDes">TopUp your wallet from your credit card.</string>
+    <string name="Transaction">Transaction History</string>
+    <string name="MyVoucherCode">My Coupon Code</string>
+    <string name="TransactionDes">Your past transactions on  app and other merchants.</string>
+    <string name="MoneyRequest">Money Request</string>
+    <string name="MoneyRequestDes">You can request money from other customer.</string>
+    <string name="MyVoucherCodeDes">Your voucher code information here.</string>
+    <string name="EventBooking">Event Booking History</string>
+    <string name="EventBookingDes">Your recent booking history on  app and other merchants.</string>
+    <string name="Popcoins">Rewards</string>
+    <string name="PopcoinsDes">Earn coins from merchant, Get benefits from .</string>
+    <string name="MyContacts">My Beneficiaries</string>
+    <string name="AddBeneficiary">Add Beneficiary</string>
+    <string name="MyContactsDes">Add all your beneficiary information here.</string>
+    <string name="ReferAndEarn">Refer &amp; Earn</string>
+    <string name="ReferAndEarnDes">Refer your friends and earn.</string>
+    <string name="Bussinesaccount">Register as business account</string>
+    <string name="BussinesaccountDes">Your past transactions on  app and other merchants.</string>
+    <string name="Rfid">Smart Card</string>
+    <string name="RfidDes">Your own Smart Card.</string>
+    <string name="Settings">Settings</string>
+    <string name="SettingsDes">Make all your settings.</string>
+    <string name="Logout">Logout</string>
+    <string name="LogoutDes">Logout your account safely.</string>
+    <string name="Remove">Remove</string>
+    <string name="Alert">Alert!!!</string>
+    <string name="AreYouSureWantToDelete">Are you sure want to delete?</string>
+    <string name="BookingDetails">Booking Details</string>
+    <string name="BookingSuccess">Booking Success</string>
+
+
+
+    <string name="AddCard">Add Card</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="YourSavedBankAccountsAppearHere">Your saved bank accounts \n will appear here</string>
+    <string name="Nearbynetworkwillappearhere">Nearby network will appear here</string>
+    <string name="PleaseSelectYourCountry">Please select your country</string>
+    <string name="SearchCountryName">Search country by Name</string>
+    <string name="NoCountryFound">No country found</string>
+    <string name="YourSavedCardsAppearHere">Your saved cards \n will appear here</string>
+    <string name="AccountHolderName">Account Holder Name</string>
+    <string name="BankName">Bank Name</string>
+    <string name="AccountNumber">Account Number</string>
+    <string name="FingerPrint">Use FingerPrint</string>
+    <string name="Add">Add</string>
+    <string name="UseFingerPrint">Use FingerPrint</string>
+
+
+    <!--***************************NearBy Screen***********************************-->
+    <string name="Shops">Shops</string>
+    <string name="Seller">Agents</string>
+    <string name="Search">Search by store name</string>
+    <string name="SearchFeed">Search by store name or offer name</string>
+    <string name="Navigate">Navigate</string>
+    <string name="RewardAlert">Enjoy rewards like never before.</string>
+    <string name="Reward">Rewards</string>
+    <string name="OFFER">Offer</string>
+    <string name="ShopOffer">Shop Offer</string>
+<string name="Nostoresfound">No stores found</string>
+<string name="Nosellerssfound">No sellers is found</string>
+    <string name="Searchbyagentsname">Search by agents name</string>
+    <!--***************************Settings Screen***********************************-->
+    <string name="Actions">Actions</string>
+    <string name="LanguageSelection">Language</string>
+    <string name="NotificationBlock">Notification Block</string>
+    <string name="ChangePin">Change Security Pin</string>
+    <string name="Changepassword">Change password</string>
+    <string name="English">English</string>
+    <string name="Arabic">Arabic</string>
+    <string name="Portuguese">Portuguese</string>
+    <string name="Hindi">Hindi</string>
+    <!--***************************Profile Screen***********************************-->
+    <string name="Profile">Profile</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="ShowQR">Show this QR Code to accept payments</string>
+    <string name="QRcodeAbove">QR code above is your personal  ID</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="UpdateKYC">Update KYC</string>
+<string name="SavedCards">Saved Cards</string>
+<string name="BankAccounts">Bank Accounts</string>
+<string name="Update">Update</string>
+<string name="Selectyourcountry">Select your country</string>
+    <!--***************************Referal Screen***********************************-->
+    <string name="ShareReferral">Share Referral</string>
+    <string name="ViewReferral">View Referral</string>
+    <string name="YourReferralCode">Your referral code</string>
+    <string name="ShareLink">Share via web Link</string>
+    <string name="Copy">Copy</string>
+    <string name="FirstText">Invite your friend to , you get</string>
+    <string name="SecondText">after your friend registered with us.</string>
+    <string name="ThirdText">Your friend will also get</string>
+    <string name="ReferFriend">Refer a Friend</string>
+    <string name="BeneficiaryEmpty">Your beneficiary list is empty</string>
+
+
+    <!--***************************TRANSACTION HISTORY  SCREEN ***********************************-->
+    <string name="TransactionHistory">Transaction History</string>
+    <string name="All">All</string>
+    <string name="Paid">Paid</string>
+    <string name="Received">Received</string>
+    <string name="Topup">Topup</string>
+    <string name="Refund">Refund</string>
+    <string name="BonusCredited">Bonus Credited</string>
+    <string name="Creditwallet">Credit to wallet</string>
+    <string name="AmountTransferredTo">Amount Transferred To</string>
+    <string name="Failed">Failed</string>
+    <string name="Pending">Pending</string>
+    <string name="Success">Success</string>
+    <string name="RecentTransactionAppearHere">Your recent transaction \n will appear here</string>
+    <string name="WithdrawnTransactions">Withdrawn Transactions</string>
+    <string name="WithdrawnFee">Withdrawn Fee</string>
+    <string name="CreditedToBank">Credited to Bank</string>
+    <string name="Transactedon">Transacted on</string>
+    <string name="OrderId">Txn ID</string>
+    <string name="MyTransactions">My Transactions</string>
+    <string name="YouHaveEarned">You have earned</string>
+    <string name="PointsReduced">Points reduced</string>
+    <string name="Offer">Offer</string>
+    <string name="Tax">Tax</string>
+    <string name="EarnedPoints">Earned Points</string>
+    <string name="Congratulation">Congratulation</string>
+    <string name="Need">Need</string>
+    <string name="MorePointsFor">more points for</string>
+    <string name="off">off</string>
+    <string name="YouEligibleFor">You\'re eligible for</string>
+    <string name="OffOnYouNextPurchase">off on you next purchase</string>
+    <string name="Points">Points</string>
+
+
+    <!--***************************PAY MONEY SCREEN***********************************-->
+    <string name="Entermobilenumbertopay">Enter mobile number to pay</string>
+    <string name="OR">OR</string>
+    <string name="Chooseforacontact">Choose for a Beneficiary list</string>
+<string name="Entermobilenumbertorequest">Enter mobile number to request</string>
+    <!--***************************REQUEST MONEY SCREEN***********************************-->
+    <string name="ConfirmDetails">Confirm your details to Proceed</string>
+    <string name="Amount">Amount</string>
+    <string name="Description">Description : </string>
+    <string name="description">Description </string>
+    <string name="Requestnow">Request Now</string>
+
+    <!--***************************MyTransactionScreen***********************************-->
+    <string name="ServiceFee">Service Fee</string>
+    <string name="PopPayFee"> Fee</string>
+    <string name="TotalPayable">Total Payable</string>
+    <string name="PoppayId"> Txn ID</string>
+    <string name="Tip">Tips</string>
+    <string name="RewardOffer">Reward Offer</string>
+    <string name="Total">Total</string>
+    <string name="TransactionDetail">Transaction Detail</string>
+    <string name="RefundAmount">Refund Amount</string>
+    <string name="RefundType">Refund Type</string>
+    <string name="RefundDate">Refund Date</string>
+    <string name="TransactionID">Transaction ID</string>
+
+
+    <!--*************************** PaymentDetailsScreen***********************************-->
+    <string name="Name">Name</string>
+    <string name="ServiceFeeDoller">$ Service Fee</string>
+    <string name="NetPayable">$ Net Payable</string>
+    <string name="PayNow">Pay Now</string>
+    <string name="Submit">Submit</string>
+
+    <!--*************************** PaymentDetailsScreen***********************************-->
+    <string name="Family">Family</string>
+    <string name="Business">Business</string>
+
+    <!--*************************** PopCoins Screen***********************************-->
+    <string name="Totalavailablecoins">Total available rewards</string>
+    <string name="PopCoinHistory">Rewards History</string>
+    <string name="Coinreceived">Coin received</string>
+    <string name="SENDREWARDS">SEND REWARDS</string>
+
+    <!--*************************** Success Screen***********************************-->
+    <string name="PaidSuccess">Paid Successfully</string>
+    <string name="For">FOR</string>
+    <string name="NeedHelp">Need Help?</string>
+
+    <!--*************************** Wallet Screen***********************************-->
+    <string name="MyWallet">My Wallet</string>
+    <string name="Withdrawn">Withdrawn</string>
+    <string name="Availablebalance">Available Balance</string>
+    <string name="BalanceLimit">This month balance limit</string>
+    <string name="AddMoney">AddMoney</string>
+    <string name="Withdraw">Withdraw</string>
+    <string name="EnterAmount">Enter Amount</string>
+    <string name="PermonthText">Per month you can add upto \n TTD $20000 in your wallet why?</string>
+    <string name="PermonthText2">into your wallet</string>
+    <string name="Why">Why?</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Creditdebit">CREDIT/DEBIT</string>
+    <string name="SaveCards">SAVE CARDS</string>
+    <string name="CardNumber">Card Number</string>
+    <string name="CVV">CVV</string>
+    <string name="mmyy">MM/YY</string>
+    <string name="Savemycard">Save my card for future use</string>
+    <string name="EnteredAmount">Entered Amount</string>
+    <string name="CreditedtoBank">Credited to Bank</string>
+    <string name="Withdrawfee">Withdrawn Fee</string>
+    <string name="inclusiveTax">inclusive Tax</string>
+    <string name="SelectBankAccount">Select Bank Account</string>
+    <string name="AddBankAccount">ADD A NEW BANK ACCOUNT</string>
+    <string name="ProceedToPay">PROCEED TO PAY</string>
+    <string name="Tappay">Tap to select card for pay</string>
+    <string name="Westoreyourcard">We store your card information in payment gateway server</string>
+    <string name="Change">CHANGE</string>
+    <string name="Notallowed">Not allowed</string>
+    <string name="PleaseEnterAmount">Please enter a amount</string>
+    <string name="PleaseEnterValidAmount">Please enter a valid amount</string>
+    <string name="PleaseAddBankAccount">Please add a new bank account</string>
+    <string name="PleaseEnterMinimumAmount">Please enter a minimum amount</string>
+    <string name="MakeAnotherWithdraw">Make another withdraw?</string>
+    <string name="Yes">YES</string>
+    <string name="No">NO</string>
+    <string name="PaidSuccessfully">Paid Successfully</string>
+    <string name="UnauthorizedAccess">Unauthorized access</string>
+    <string name="PleaseEnterValidCardDetails">Please enter a valid card details</string>
+
+    <!--*************************** Event Screen***********************************-->
+    <string name="SearchEvent">Search by id, name</string>
+    <string name="AboutEvent">About Event</string>
+    <string name="Organizers">Organizers</string>
+    <string name="TermsCond">Terms &amp; Cond</string>
+    <string name="BOOK">BOOK</string>
+    <string name="YourRecentEventsAppearHere">Your recent events list\n will appear here</string>
+    <string name="CurrentlyEventList">Currently no events in list</string>
+    <string name="EventDescription">Event Description</string>
+    <string name="BusinessName">Business Name</string>
+    <string name="ReviewBooking">Review Booking</string>
+    <string name="TicketDetails">Ticket Details</string>
+    <string name="NoTickets">No.Tickets</string>
+    <string name="DateTime">Date &amp; Time</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="Servicetax">Service tax</string>
+    <string name="ConfirmationMessage">Confirmation message will send to</string>
+    <string name="YourRecentTransactionWillAppearHere">Your recent transaction \n will appear here</string>
+    <string name="RequestReceivedFrom">Request received from</string>
+    <string name="RequestSentTo">Request sent to</string>
+    <string name="MoneyRequestSuccess">Money Request Success</string>
+    <string name="RejectRequest">Reject Request</string>
+    <string name="SENDMONEY">SEND MONEY</string>
+    <string name="FROM">FROM</string>
+    <string name="EventName">Event Name</string>
+    <string name="TicketBookedSuccessfully">Ticket Booked Successfully</string>
+    <string name="Venu">Venu</string>
+    <string name="Date">Date</string>
+    <string name="TicketType">Ticket Type</string>
+    <string name="Time">Time</string>
+    <string name="Price">Price</string>
+    <string name="TicketID">Ticket ID</string>
+    <string name="BookingID">Booking ID</string>
+    <string name="VERIFIED">VERIFIED</string>
+    <string name="SelectDate">Select Date</string>
+    <string name="SelectTime">Select Time</string>
+
+
+    <!--*************************** Event Screen***********************************-->
+    <string name="PleaseTryAgain">Something went wrong, please try again</string>
+    <string name="ValidMobileNumber">Please enter a valid number</string>
+    <string name="EnterOldPassword">Please enter a old password</string>
+    <string name="EnterNewPassword">Please enter a new password</string>
+    <string name="EnterValidPassword">Please enter valid password</string>
+<string name="NoEventfound">No Event found</string>
+
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">Scan barcode</string>
+    <string name="no_barcode_captured">No barcode captured</string>
+    <string name="barcode_error_format">"Error reading barcode: %1$s"</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+
+    <!--Validation -->
+    <string name="BookingHistory">Booking History</string>
+    <string name="UpComingEvents">UpComing Events</string>
+    <string name="CompletedEvents">Completed Events</string>
+    <string name="YourRecentEventsAppear">Your recent events list\n will appear here</string>
+    <string name="Onwards">Onwards</string>
+
+    <!--Validation -->
+    <string name="PleaseEnterCardNumber">Please enter card number</string>
+    <string name="PleaseEnterExpiryYear">Please enter expiry year </string>
+    <string name="PleaseEnterValidExpiryYear">Please enter valid expiry year </string>
+    <string name="PleaseEnterexpiryMonth">Please enter expiry month</string>
+    <string name="PleaseEnterValidexpiryMonth">Please enter valid expiry month</string>
+    <string name="PleaseEnterCvvnumber">Please enter CVV number</string>
+    <string name="PleaseEnterValidCvvnumber">Please enter valid CVV number</string>
+    <string name="PleaseEnterTheAmount">Please enter the amount</string>
+    <string name="PleaseEnterTheAmountGrater">Please enter the amount Great than 0</string>
+
+
+    <!--Kidss -->
+    <string name="RequestMoneyFromParents">Request money from your parents.</string>
+    <string name="PayMoneyToAnyMerchants">Pay money to any rpay merchants.</string>
+    <string name="TransactionHistoryDes">Your past transactions on rpay app.</string>
+    <string name="OffersNearby">Offers Nearby</string>
+    <string name="OffersNearbyDec">Your nearby merchant offers.</string>
+    <string name="EventsDec">Events information list</string>
+    <string name="SendSticker">Send Stickers</string>
+    <string name="SendStickerDec">Send Stickers to your friends</string>
+    <string name="Theme">Themes</string>
+    <string name="ThemeDec">Chang your theme.</string>
+    <string name="ScanQRpay">Scan QR to pay</string>
+    <string name="MyKid">My kids</string>
+    <string name="MyKidDes">Follow your kids.</string>
+    <string name="SelectTheme">Select Theme</string>
+    <string name="DOB">Date of birth</string>
+    <string name="Age">Age</string>
+    <string name="AddChildInformation">Add your child information</string>
+    <string name="SchoolName">School Name</string>
+    <string name="SchoolAddress">School Address</string>
+    <string name="PleaseEnterName">Please enter a name</string>
+    <string name="PleaseEnterDob">Please enter a date of birth</string>
+    <string name="PleaseEnterAge">Please enter a Age</string>
+    <string name="PleaseEnterValidAge">Please enter a valid Age</string>
+    <string name="PleaseEnterSchoolName">Please enter a school name</string>
+    <string name="PleaseEnterSchoolAddress">Please enter a school address</string>
+    <string name="Active">Active</string>
+    <string name="DeActive">De-Active</string>
+    <string name="Appblock">App Status</string>
+    <string name="Apply">Apply</string>
+    <string name="Gender">Gender : </string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+
+    <string name="Share">Share</string>
+    <string name="SharePost">Share this post in social media</string>
+    <string name="HidePost">Hide this post</string>
+    <string name="IDontWantPost">I don\'t want to see this post in my feed</string>
+    <string name="Unfollowtheshop">Unfollow the shop</string>
+    <string name="StopSeeingFeedsShop">Stop seeing feeds from this shop</string>
+    <string name="ShareAnSticker">Share an message</string>
+    <string name="POST">POST</string>
+    <string name="History">History</string>
+    <string name="PleaseTypeYourMssage">Please type your message</string>
+
+    <!--Recharge-->
+    <string name="Network">Network</string>
+    <string name="SelectService">Select Service</string>
+    <string name="TotalAmount">Total Amount</string>
+    <string name="Nickname">Nickname</string>
+    <string name="PROCCEDTOPAY">PROCCED TO PAY</string>
+    <string name="RECENTPAYMENT">RECENT PAYMENT</string>
+    <string name="Etisalat">Etisalat</string>
+    <string name="Du">DU</string>
+    <string name="Salik">Salik</string>
+    <string name="SelectPlan">Select Plan</string>
+    <string name="NoInternetConnection">No Internet Connection!!!</string>
+    <string name="Locationisdisabled">Location is disabled</string>
+    <string name="LocationisdisabledDEC">Location service is disabled please enable location</string>
+    <string name="Permissionnecessary">Permission necessary</string>
+    <string name="ExternalStoragePermissionNecessary">External storage permission is necessary</string>
+    <string name="CameraPermissionNecessary">Camera permission is necessary</string>
+    <string name="Pleaseselectyouroperator">Please select your operator</string>
+    <string name="pleasechooseanothernumber">please choose another number</string>
+<string name="Prepaid">Prepaid</string>
+    <string name="Postpaid">Postpaid</string>
+    <string name="SelectOperator">Select Operator</string>
+
+    <!---GenerateQrPScreen-->
+    <string name="Insufficientwalletbalance">Insufficient wallet balance</string>
+
+    <!---Event Ticket Screen-->
+
+    <string name="pleaseselectadate">please select a date</string>
+    <string name="pleaseselectatime">please select a time</string>
+
+    <!-- Review Bookking Screen-->
+
+    <string name="InsufficientRewards">Insufficient Rewards</string>
+   <!-- EventHistoryScreen-->
+
+    <string name="Noeventsfound">No events found</string>
+   <!--AlternatewalletScreen-->
+    <string name="Nocards">No card(s)</string>
+    <string name="MoneyloadtowalletSuccessfully">Money load to wallet Successfully</string>
+    <string name="Version">Version-</string>
+    <string-array name="country_arrays">
+        <item>+251</item>
+        <item>+1</item>
+    </string-array>
+
+</resources>
+
+
+
+
+

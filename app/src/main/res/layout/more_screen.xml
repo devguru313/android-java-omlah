@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/myWalletLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/walletImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/wallet_icon" />
+
+            <TextView
+                android:id="@+id/walletName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/walletImageView"
+                android:layout_toRightOf="@+id/walletImageView"
+                android:text="@string/Mywallet"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/walletName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_toEndOf="@+id/walletImageView"
+                android:layout_toRightOf="@+id/walletImageView"
+                android:text="@string/MyWalletDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/viewTransactionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/transactionImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/view_transaction" />
+
+            <TextView
+                android:id="@+id/transactionName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/transactionImageView"
+                android:layout_toRightOf="@+id/transactionImageView"
+                android:text="@string/Transaction"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/transactionName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_toEndOf="@+id/transactionImageView"
+                android:layout_toRightOf="@+id/transactionImageView"
+                android:text="@string/TransactionDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/myCouponsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/couponsImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/rfid" />
+
+            <TextView
+                android:id="@+id/couponsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/couponsImageView"
+                android:layout_toRightOf="@+id/couponsImageView"
+                android:text="@string/MyVoucherCode"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/couponsName"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/couponsImageView"
+                android:layout_toRightOf="@+id/couponsImageView"
+                android:text="@string/MyVoucherCodeDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/eventListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/eventImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/calendar_icon"
+                />
+
+            <TextView
+                android:id="@+id/eventName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/eventImageView"
+                android:layout_toRightOf="@+id/eventImageView"
+                android:text="@string/EventBooking"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eventName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_toEndOf="@+id/eventImageView"
+                android:layout_toRightOf="@+id/eventImageView"
+                android:text="@string/EventBookingDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/moneyRequestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/moneyRequestImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/transaction_history" />
+
+            <TextView
+                android:id="@+id/moneyRequestName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/moneyRequestImageView"
+                android:layout_toRightOf="@+id/moneyRequestImageView"
+                android:text="@string/MoneyRequest"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/moneyRequestName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/moneyRequestImageView"
+                android:fontFamily="@font/light"
+                android:layout_toRightOf="@+id/moneyRequestImageView"
+                android:text="@string/MoneyRequestDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor"
+            android:visibility="visible"/>
+
+        <RelativeLayout
+            android:id="@+id/popcoinLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/popcoinImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/popcoin" />
+
+            <TextView
+                android:id="@+id/popcoinName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/popcoinImageView"
+                android:layout_toRightOf="@+id/popcoinImageView"
+                android:text="@string/Popcoins"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popcoinName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/popcoinImageView"
+                android:layout_toRightOf="@+id/popcoinImageView"
+                android:text="@string/PopcoinsDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/rfidLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/rfidImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/rfid" />
+
+            <TextView
+                android:id="@+id/rfidName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/rfidImageView"
+                android:layout_toRightOf="@+id/rfidImageView"
+                android:text="@string/Rfid"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rfidName"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/rfidImageView"
+                android:layout_toRightOf="@+id/rfidImageView"
+                android:text="@string/RfidDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/myContactsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/contactsImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/my_contact" />
+
+            <TextView
+                android:id="@+id/contactsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/contactsImageView"
+                android:layout_toRightOf="@+id/contactsImageView"
+                android:text="@string/MyContacts"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contactsName"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/contactsImageView"
+                android:layout_toRightOf="@+id/contactsImageView"
+                android:text="@string/MyContactsDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/referLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/refferImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/share_icon" />
+
+            <TextView
+                android:id="@+id/refferName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/refferImageView"
+                android:layout_toRightOf="@+id/refferImageView"
+                android:text="@string/ReferAndEarn"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/refferName"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/refferImageView"
+                android:layout_toRightOf="@+id/refferImageView"
+                android:text="@string/ReferAndEarnDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/myAccountLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/accountImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/my_account" />
+
+            <TextView
+                android:id="@+id/accountName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/accountImageView"
+                android:layout_toRightOf="@+id/accountImageView"
+                android:text="@string/MyAccount"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accountName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/accountImageView"
+                android:layout_toRightOf="@+id/accountImageView"
+                android:text="@string/MyAccountDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/businnessAccountLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/baccountImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/bussiness_account" />
+
+            <TextView
+                android:id="@+id/baccountName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/baccountImageView"
+                android:layout_toRightOf="@+id/baccountImageView"
+                android:text="@string/Bussinesaccount"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/baccountName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/baccountImageView"
+                android:layout_toRightOf="@+id/baccountImageView"
+                android:text="@string/BussinesaccountDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/settingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/settingsImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/settings" />
+
+            <TextView
+                android:id="@+id/settingsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/settingsImageView"
+                android:layout_toRightOf="@+id/settingsImageView"
+                android:text="@string/Settings"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/settingsName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/settingsImageView"
+                android:layout_toRightOf="@+id/settingsImageView"
+                android:text="@string/SettingsDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lineColor" />
+
+        <RelativeLayout
+            android:id="@+id/logoutLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/logoutImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/logout" />
+
+            <TextView
+                android:id="@+id/logoutName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/logoutImageView"
+                android:layout_toEndOf="@+id/logoutImageView"
+                android:text="@string/Logout"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logoutName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/light"
+                android:layout_toEndOf="@+id/logoutImageView"
+                android:layout_toRightOf="@+id/logoutImageView"
+                android:text="@string/LogoutDes"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/versionCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/normal"
+            android:text="@string/Version"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

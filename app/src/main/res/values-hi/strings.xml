@@ -1,0 +1,569 @@
+<resources>
+    <string name="app_name">Omlah</string>
+    <string name="appname">Omlah</string>
+    <string name="offer">Offer</string>
+    <string name="facebook_app_id" translatable="false" >1667681846678610</string>
+    <string name="SELECTALANGUAGE">भाषा चुनें</string>
+    <string name="Earned">अर्जित</string>
+    <string name="AddBankAccountScreen">बैंक खाता जोड़ें</string>
+    <string name="PaymentDetails">भुगतान विवरण</string>
+    <string name="Select">"اختر "</string>
+    <string name="SelectPaymentMode">भुगतान मोड का चयन करें</string>
+    <string name="AmountPayable">देय राशि</string>
+    <string name="VIEWALLCARDS">सभी कार्ड देखें</string>
+    <string name="On">पर</string>
+    <string name="Off">Off</string>
+
+
+    <!--****************************SPLASH SCREEN**********************************-->
+    <string name="DigitalPaymentSolution">डिजिटल भुगतान समाधान</string>
+    <string name="NEWUPDATE">नई अपडेट</string>
+    <string name="UpdateNow">अभी अद्यतन करें</string>
+    <string name="NOTNOW">अभी नहीं</string>
+    <!--****************************INTRO SCREEN**********************************-->
+    <string name="string_first">भुगतान भेजें और प्राप्त करें</string>
+    <string name="string_second">स्कैन और व्यापारियों को भुगतान करें</string>
+    <string name="string_third">बुक इवेंट टिकट</string>
+    <string name="string_forth">तत्काल रिचार्ज कभी भी</string>
+    <string name="content_Zero">िजिटल भुगतान समाधान</string>
+    <string name="content_first">अपने ऑनलाइन लेनदेन के लिए भुगतान भेजने, भुगतान प्राप्त करने के लिए उपयोग करें</string>
+    <string name="content_second">कुछ सेकंड के भीतर "स्कैन और पे" सुविधा का उपयोग करके भुगतान करें</string>
+    <string name="content_third">आप व्यापारियों द्वारा पोस्ट की गई घटनाओं के लिए टिकट बुक कर सकते हैं</string>
+    <string name="content_forth">तत्काल लेनदेन, बिल भुगतान किसी भी समय और कहीं भी संभव है</string>
+    <string name="LOGIN">लॉग इन करें</string>
+    <string name="REGISTER">रजिस्टर</string>
+
+    <!--*************************** GetStarted Screen***********************************-->
+    <string name="GetStarted">शुरू हो जाओ</string>
+    <string name="MobileNumber">मोबाइल नंबर</string>
+    <string name="Continue">जारी रहना</string>
+    <string name="LoginDes">भयानक ऑफ़र के साथ सहज भुगतान अनुभव का आनंद लेने के लिए लॉगिन करें</string>
+    <string name="EnterValidNumber">कृपया एक सही संख्या डालिये</string>
+
+    <!--*************************** Signup Screen***********************************-->
+    <string name="FirstName">पहला नाम</string>
+    <string name="LastName">अंतिम नाम</string>
+    <string name="Email">ईमेल आईडी</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="SelectYourCountry">अपने देश का चयन करें</string>
+    <string name="ReferCode">कोड देखें</string>
+    <string name="EnterFirstName">कृपया पहला नाम दर्ज करें</string>
+    <string name="EnterLastName">कृपया अंतिम नाम दर्ज करें</string>
+    <string name="EnterEmail">कृपया एक ईमेल दर्ज करें</string>
+    <string name="EnterValidEmail">कृपया अपना मान्य ईमेल लिखें</string>
+    <string name="EnterNumber">एक संख्या दर्ज करें</string>
+    <string name="EnterCountry">कृपया एक देश चुनिए</string>
+    <string name="EnterPassword">कृपया पासवर्ड दर्ज करें</string>
+    <string name="ResetPasswordText">पासवर्ड में न्यूनतम 6 वर्ण होने चाहिए, कम से कम एक संख्यात्मक और एक गैर-संख्यात्मक वर्ण होना चाहिए</string>
+    <string name="Invalidreferralcode">अमान्य रेफरल कोड</string>
+    <string name="EnterValidReferCode">कृपया मान्य संदर्भ कोड दर्ज करें</string>
+    <string name="UpdatePlayService">कृपया अपनी Google Play सेवा अपडेट करें !!!</string>
+    <string name="Ok">ठीक</string>
+    <string name="Cancel">रद्द करना</string>
+
+
+
+
+    <string name="LogoutForOtherDevice">अन्य डिवाइस के लिए लॉगआउट करें</string>
+    <string name="AlreadyYouLoggedIn">पहले से ही आपने किसी अन्य डिवाइस में लॉग-इन किया है, इसलिए कृपया इस डिवाइस को जारी रखने के लिए ठीक क्लिक करें।</string>
+    <string name="AreYouSureWantToExit">क्या आप वास्तव मे बाहर जाना चाहते हैं</string>
+    <string name="SCANQRCODE">क्यू आर कोड स्कैन करें</string>
+    <string name="FINDNEARBY">खोज के द्वारा</string>
+    <string name="PAYNOW">अब भुगतान करें</string>
+    <string name="RECEIVE">प्राप्त करना</string>
+    <string name="RequestMoney">आकांक्षित रकम</string>
+    <string name="Myfamilyfriendlist">मेरा परिवार  &amp; मित्रों की सूची</string>
+    <string name="Yourbeneficiarylistisempty">आपकी लाभार्थी सूची खाली है</string>
+    <string name="SendMoney">पैसे भेजो</string>
+    <string name="Pleasetryagain">कृपया पुन: प्रयास करें..</string>
+
+
+
+    <!--*************************** GetStarted Screen***********************************-->
+    <string name="ORSIGNUP">या इसमें साइन करें</string>
+    <string name="Facebook">फेसबुक</string>
+    <string name="Google">गूगल</string>
+    <string name="PleaseEnterNewPin">कृपया एक नया पिन दर्ज करें</string>
+    <string name="PleaseEnterOTP">कृपया एक OTP दर्ज करें</string>
+    <string name="PleaseEnterValidOTP">कृपया एक वैध OTP दर्ज करें</string>
+    <string name="PinChanged">सुरक्षा पिन सफलतापूर्वक बदल गया</string>
+    <string name="CheckregesteredEmail">अपने पंजीकृत मोबाइल नंबर या पंजीकृत ईमेल पर OTP की जाँच करें।</string>
+    <string name="ConfirmPayment">भुगतान की पुष्टि करें</string>
+    <string name="PleaseEnterValidAmountYouHave">कृपया मान्य राशि दर्ज करें, आपके पास है</string>
+    <string name="RemainingYourWallet">अपने बटुए में शेष।</string>
+    <string name="WouldYouLikeAddTip">क्या आप एक टिप जोड़ना चाहेंगे</string>
+    <string name="Youget">आपको मिला</string>
+    <string name="RewardPointsAfterPaymentSuccess">भुगतान सफलता के बाद अंक</string>
+    <string name="ShopName">दुकान का नाम</string>
+    <string name="AmountPay">राशि का भुगतान</string>
+
+    <!--*************************** Login Screen***********************************-->
+    <string name="WelcomeBack">Welcome Back!</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="EnterMobileNumber">कृपया एक मोबाइल नंबर दर्ज करें</string>
+    <string name="ClearExitSession">लॉगिन करने के लिए स्पष्ट अस्तित्व सत्र</string>
+    <string name="OTPsent">OTP आपके पंजीकृत नंबर और ईमेल में सफलतापूर्वक भेजा गया</string>
+
+    <!--****************************FORGOT PASSWORD SCREEN**********************************-->
+    <string name="ResetPassword">पासवर्ड रीसेट</string>
+    <string name="ResetSecurityPin">रीसेट सुरक्षा पिन</string>
+    <string name="NewPassword">नया पासवर्ड</string>
+    <string name="NewSecurityPin">अपना नया सुरक्षा पिन बनाएं</string>
+    <string name="OldPassword">पुराना पासवर्ड</string>
+    <string name="OTP">OTP</string>
+    <string name="CheckOTP">अपने पंजीकृत मोबाइल नंबर या पंजीकृत ईमेल पर OTP की जाँच करें।</string>
+    <string name="ENTERNEWPASSWORD">कृपया एक नया पासवर्ड दर्ज करें</string>
+    <string name="ENTEROTP">कृपया एक OTP दर्ज करें</string>
+    <string name="ENTERVALIDOTP">कृपया एक वैध OTP दर्ज करें</string>
+
+
+    <!--****************************PASSCODE SCREEN**********************************-->
+    <string name="TouchIDPasscode">आईडी स्पर्श करें या सुरक्षा पिन दर्ज करें</string>
+    <string name="EnterPin">कृपया अपना सुरक्षा पिन दर्ज करें</string>
+    <string name="CreatePin">अपना Security Pin बनाएं</string>
+    <string name="SecureAccess">यह कोड आपकी व्यक्तिगत तिथि तक पहुंच को सुरक्षित करेगा</string>
+    <string name="PersonalData">व्यक्तिगत डेटा</string>
+    <string name="ForgotPin">पिन भूल गए?</string>
+    <string name="Reenter">कृपया एक सही सुरक्षा पिन डालें</string>
+    <string name="ConfirmSecurityPin">अपने सुरक्षा पिन की पुष्टि करें</string>
+    <string name="NewPin">अपना नया सुरक्षा पिन बनाएं</string>
+    <string name="OldPin">कृपया अपना पुराना सुरक्षा पिन डालें</string>
+    <string name="OTPsentsuccessfully">OTP को सफलतापूर्वक भेजा गया</string>
+    <string name="Delete">हटाना</string>
+    <!--****************************OTP  SCREEN**********************************-->
+    <string name="OTPVerification">OTP सत्यापन</string>
+    <string name="OTPBanner">वापस बैठो &amp; आराम करें! जब हम आपका मोबाइल नंबर सत्यापित करते हैं</string>
+    <string name="OtpToast">(यदि हम स्वचालित रूप से \\ n एसएमएस का पता लगाने में विफल रहते हैं तो नीचे ओटीपी दर्ज करें)</string>
+    <string name="ResendCode">CODE का उपयोग करने के लिए टैप करें</string>
+
+    <!--****************************BASE SCREEN**********************************-->
+    <string name="Home">होम</string>
+    <string name="Nearby">स्टोर</string>
+    <string name="Feeds">फ़ीड</string>
+    <string name="Events">आयोजन</string>
+    <string name="Stores">स्टोर</string>
+    <string name="More">अधिक</string>
+    <string name="RPay">RPay</string>
+    <!--***************************HOME  SCREEN ***********************************-->
+    <string name="WalletBalance">बटुआ संतुलन</string>
+    <string name="BalanceDetails">आर अंक></string>
+    <string name="ADDMONEY">पैसे जोड़ें</string>
+    <string name="PopCoins">पॉप सिक्के</string>
+    <string name="POPPAYNOW">अभी व</string>
+    <string name="RecentTransaction">हाल ही में लेन-देन</string>
+    <string name="Send">भेजना</string>
+    <string name="Request">निवेदन</string>
+    <string name="WALLET">बटुआ</string>
+    <string name="COUPONS">कूपन</string>
+    <string name="Coupons">कूपन</string>
+    <string name="Offers">ऑफर</string>
+    <string name="RECHARGE">रिचार्ज</string>
+    <string name="BILLPAYMENT">बिल भुगतान</string>
+    <string name="TRANSACTIONS">लेनदेन</string>
+    <string name="REFERRAL">रेफ़रल</string>
+    <string name="REWARDS">पुरस्कार</string>
+    <string name="BillPayment">बिल भुगतान</string>
+    <string name="ComingSoon">जल्द आ रहा है...</string>
+    <string name="SelectNetwork">नेटवर्क चुनें</string>
+    <string name="Recharge">फिर से दाम लगाना</string>
+    <string name="YouRecentRewardsWillAppearHere">आप हाल के पुरस्कार यहां दिखाई देंगे</string>
+    <string name="RechargeBillPaymentsampmore">रिचार्ज, बिल भुगतान और &amp; अधिक</string>
+    <string name="Earn200morepointstoredeemalenovaLaptop">एक लेनोवो लैपटॉप को भुनाने के लिए 200 और अंक अर्जित करें</string>
+    <string name="pleaseenteraamount">कृपया एक राशि दर्ज करें</string>
+    <string name="pleaseenteravalidamount">कृपया एक मान्य राशि दर्ज करें</string>
+    <string name="Thisdeviceisnotsupported">यह उपकरण समर्थित नहीं है।</string>
+    <string name="Sessionexpiredpleaselogintocontinue">सत्र समाप्त हो गया है, कृपया जारी रखने के लिए लॉगिन करें</string>
+    <string name="DealsNearbyyou">आप के पास सौदा</string>
+    <!--****************************MORE SCREEN**********************************-->
+    <string name="Mywallet">मेरा बटुआ</string>
+    <string name="MyAccount">मेरी प्रोफाइल</string>
+    <string name="MyAccountDes">अपनी प्रोफ़ाइल जानकारी यहां प्रबंधित करें।</string>
+    <string name="MyWalletDes">अपने क्रेडिट कार्ड से अपने बटुए को ऊपर करें।</string>
+    <string name="Transaction">लेनदेन का इतिहास</string>
+    <string name="MyVoucherCode">मेरा कूपन कोड</string>
+    <string name="TransactionDes">ऐप और अन्य व्यापारियों पर आपका पिछला लेनदेन।.</string>
+    <string name="MoneyRequest">मनी रिक्वेस्ट</string>
+    <string name="MoneyRequestDes">आप अन्य ग्राहक से पैसे का अनुरोध कर सकते हैं।</string>
+    <string name="MyVoucherCodeDes">आपके वाउचर कोड की जानकारी यहाँ।</string>
+    <string name="EventBooking">ईवेंट बुकिंग इतिहास</string>
+    <string name="EventBookingDes">ऐप और अन्य व्यापारियों पर आपका हालिया बुकिंग इतिहास।</string>
+    <string name="Popcoins">पुरस्कार</string>
+    <string name="PopcoinsDes">व्यापारी से सिक्के कमाएं, लाभ प्राप्त करें</string>
+    <string name="MyContacts">मेरे लाभार्थी</string>
+    <string name="AddBeneficiary">लाभार्थी जोड़ें</string>
+    <string name="MyContactsDes">अपनी सभी लाभार्थी जानकारी यहाँ जोड़ें।</string>
+    <string name="ReferAndEarn">देखें  &amp;</string>
+    <string name="ReferAndEarnDes">अपने दोस्तों को देखें और कमाएं।</string>
+    <string name="Bussinesaccount">व्यवसाय खाते के रूप में पंजीकृत करें</string>
+    <string name="BussinesaccountDes">ऐप और अन्य व्यापारियों पर आपका पिछला लेनदेन।</string>
+    <string name="Rfid">स्मार्ट कार्ड</string>
+    <string name="RfidDes">आपका अपना स्मार्ट कार्ड</string>
+    <string name="Settings">सेटिंग्स</string>
+    <string name="SettingsDes">अपनी सारी सेटिंग करें।.</string>
+    <string name="Logout">लोग आउट</string>
+    <string name="LogoutDes">अपने खाते को सुरक्षित रूप से लॉगआउट करें।</string>
+    <string name="Remove">हटाना</string>
+    <string name="Alert">चेतावनी !!!</string>
+    <string name="AreYouSureWantToDelete">क्या आप वाकई हटाना चाहते हैं?</string>
+    <string name="BookingDetails">बुकिंग विवरण</string>
+    <string name="BookingSuccess">बुकिंग सफलता</string>
+
+
+
+    <string name="AddCard">कार्ड जोड़ें</string>
+    <string name="SUBMIT">जमा करें</string>
+    <string name="YourSavedBankAccountsAppearHere">आपके सहेजे गए बैंक खाते \ n यहाँ दिखाई देंगे</string>
+    <string name="Nearbynetworkwillappearhere">आसपास का नेटवर्क यहां दिखाई देगा</string>
+    <string name="PleaseSelectYourCountry">कृपया अपना देश चुनें</string>
+    <string name="SearchCountryName">नाम से देश खोजें</string>
+    <string name="NoCountryFound">कोई देश नहीं मिला</string>
+    <string name="YourSavedCardsAppearHere">आपके सहेजे गए कार्ड \ n यहाँ दिखाई देंगे</string>
+    <string name="AccountHolderName">खाताधारक का नाम</string>
+    <string name="BankName">बैंक का नाम </string>
+    <string name="AccountNumber">खाता संख्या</string>
+    <string name="FingerPrint">फिंगरप्रिंट का उपयोग करें</string>
+    <string name="Add">जोड़ना</string>
+    <string name="UseFingerPrint">फिंगरप्रिंट का उपयोग करें</string>
+
+    <!--***************************NearBy Screen***********************************-->
+    <string name="Shops">दुकानें</string>
+    <string name="Seller">एजेंटों</string>
+    <string name="Search">स्टोर नाम से खोजें</string>
+    <string name="SearchFeed">स्टोर नाम या प्रस्ताव नाम से खोजें</string>
+    <string name="Navigate">नेविगेट</string>
+    <string name="RewardAlert">पहले की तरह पुरस्कार का आनंद लें।</string>
+    <string name="Reward">पुरस्कार</string>
+    <string name="OFFER">प्रस्ताव</string>
+    <string name="ShopOffer">दुकान की पेशकश</string>
+    <string name="Nostoresfound">कोई भंडार नहीं मिला</string>
+    <string name="Nosellerssfound">कोई विक्रेता नहीं मिला</string>
+    <string name="Searchbyagentsname">एजेंटों के नाम से खोजें</string>
+    <!--***************************Settings Screen***********************************-->
+    <string name="Actions">क्रिया</string>
+    <string name="LanguageSelection">भाषा</string>
+    <string name="NotificationBlock">अधिसूचना ब्लॉक</string>
+    <string name="ChangePin">पासवर्ड बदलें</string>
+    <string name="Changepassword">पासवर्ड बदलें</string>
+    <string name="English">अंग्रेज़ी</string>
+    <string name="Arabic">अरबी</string>
+    <string name="Portuguese">पुर्तगाली</string>
+    <string name="Hindi">हिंदी</string>
+    <!--***************************Profile Screen***********************************-->
+    <string name="Profile">प्रोफाइल</string>
+    <string name="MyProfile">मेरी प्रोफाइल</string>
+    <string name="ShowQR">भुगतान स्वीकार करने के लिए यह QR कोड दिखाएं</string>
+    <string name="QRcodeAbove">ऊपर QR कोड आपकी व्यक्तिगत आईडी है</string>
+    <string name="EditProfile">प्रोफाइल एडिट करें</string>
+    <string name="UpdateKYC">केवाईसी अपडेट करें</string>
+    <string name="SavedCards">सहेजे गए कार्ड</string>
+    <string name="BankAccounts">बैंक खाते</string>
+    <string name="Update">अप्डेट</string>
+    <string name="Selectyourcountry">अपने देश का चयन करें</string>
+
+    <!--***************************Referal Screen***********************************-->
+    <string name="ShareReferral">शेयर रेफरल</string>
+    <string name="ViewReferral">रेफरल देखें</string>
+    <string name="YourReferralCode">आपका रेफरल कोड</string>
+    <string name="ShareLink">वेब लिंक कॉपी के माध्यम से साझा करें</string>
+    <string name="Copy">प्रतिलिपि</string>
+    <string name="FirstText">अपने मित्र को आमंत्रित करें, आपको मिल जाएगा</string>
+    <string name="SecondText">आपके दोस्त के हमारे साथ पंजीकृत होने के बाद।</string>
+    <string name="ThirdText">आपका दोस्त भी मिलेगा</string>
+    <string name="ReferFriend">मित्र को आमंत्रित करें</string>
+    <string name="BeneficiaryEmpty">आपकी लाभार्थी सूची खाली है</string>
+
+    <!--***************************TRANSACTION HISTORY  SCREEN ***********************************-->
+    <string name="TransactionHistory">लेनदेन का इतिहास</string>
+    <string name="All">सब</string>
+    <string name="Paid">भुगतान किया है</string>
+    <string name="Received">प्राप्त किया</string>
+    <string name="Topup">ऊपर से</string>
+    <string name="Refund">धन की वापसी</string>
+    <string name="BonusCredited">रेफरल बोनस को श्रेय दिया जाता है</string>
+    <string name="Creditwallet">बटुए को श्रेय</string>
+    <string name="AmountTransferredTo">राशि हस्तांतरित</string>
+    <string name="Failed">अनुत्तीर्ण होना</string>
+    <string name="Pending">अपूर्ण</string>
+    <string name="Success">सफलता</string>
+    <string name="RecentTransactionAppearHere">आपका हालिया लेन-देन \ n यहाँ दिखाई देगा</string>
+    <string name="WithdrawnTransactions">लेन-देन वापस ले लिया</string>
+    <string name="WithdrawnFee">फीस वापस ले ली</string>
+    <string name="CreditedToBank">बैंक में जमा किया गया</string>
+    <string name="Transactedon">पर लेनदेन किया</string>
+    <string name="OrderId">Txn आईडी</string>
+    <string name="MyTransactions">मेरे लेन-देन</string>
+    <string name="YouHaveEarned">तुमने अर्जित किया</string>
+    <string name="PointsReduced">अंक कम हो गए</string>
+    <string name="Offer">प्रस्ताव</string>
+    <string name="Tax">कर</string>
+    <string name="EarnedPoints">अर्जित अंक</string>
+    <string name="Congratulation">बधाई</string>
+    <string name="Need">जरुरत</string>
+    <string name="MorePointsFor">के लिए और अधिक अंक</string>
+    <string name="off">बंद</string>
+    <string name="YouEligibleFor">आप के लिए पात्र हैं</string>
+    <string name="OffOnYouNextPurchase">आप अगली खरीद पर बंद</string>
+    <string name="Points">अंक</string>
+    <!--***************************PAY MONEY SCREEN***********************************-->
+    <string name="Entermobilenumbertopay">भुगतान करने के लिए मोबाइल नंबर दर्ज करें</string>
+    <string name="OR">या</string>
+        <string name="Chooseforacontact">लाभार्थी सूची चुनें</string>
+    <string name="Entermobilenumbertorequest">अनुरोध करने के लिए मोबाइल नंबर दर्ज करें</string>
+    <!--***************************REQUEST MONEY SCREEN***********************************-->
+    <string name="ConfirmDetails">आगे बढ़ने के लिए अपने विवरण की पुष्टि करें</string>
+    <string name="Amount">रकम</string>
+    <string name="Description">विवरण : </string>
+    <string name="description">वरण : </string>
+    <string name="Requestnow">अब निवेदन करें</string>
+
+    <!--***************************MyTransactionScreen***********************************-->
+    <string name="ServiceFee">सेवा शुल्क</string>
+    <string name="PopPayFee"> शुल्क</string>
+    <string name="TotalPayable">कुल देय</string>
+    <string name="PoppayId"> Txn आईडी</string>
+    <string name="Tip">टिप (टिप्स जोड़ें)</string>
+    <string name="RewardOffer">इनाम की पेशकश</string>
+    <string name="Total">संपूर्ण</string>
+    <string name="TransactionDetail">लेन-देन का विवरण</string>
+    <string name="RefundAmount">वापसी राशि</string>
+    <string name="RefundType">रिफंड प्रकार</string>
+    <string name="RefundDate">प्रतिदाय की तिथि</string>
+    <string name="TransactionID">लेनदेन आईडी</string>
+
+
+    <!--*************************** PaymentDetailsScreen***********************************-->
+    <string name="Name">नाम</string>
+    <string name="ServiceFeeDoller">$ सेवा शुल्क</string>
+    <string name="NetPayable">$ नेट देय</string>
+    <string name="PayNow">अब भुगतान करें</string>
+    <string name="Submit">जमा करें</string>
+
+    <!--*************************** PaymentDetailsScreen***********************************-->
+    <string name="Family">परिवार</string>
+    <string name="Business">व्यापार</string>
+
+    <!--*************************** PopCoins Screen***********************************-->
+    <string name="Totalavailablecoins">कुल उपलब्ध पुरस्कार</string>
+    <string name="PopCoinHistory">पुरस्कार इतिहास</string>
+    <string name="Coinreceived">सिक्का प्राप्त हुआ</string>
+    <string name="SENDREWARDS">समाचार भेजें</string>
+
+    <!--*************************** Success Screen***********************************-->
+    <string name="PaidSuccess">सफ़लतापूर्वक भुगतान किया</string>
+    <string name="For">के लिये</string>
+    <string name="NeedHelp">मदद चाहिए?</string>
+
+    <!--*************************** Wallet Screen***********************************-->
+    <string name="MyWallet">मेरा बटुआ</string>
+    <string name="Withdrawn">वापस लिया गया</string>
+    <string name="Availablebalance">उपलब्ध शेष राशिe</string>
+    <string name="BalanceLimit">इस महीने संतुलन की सीमा</string>
+    <string name="AddMoney">पैसे जोड़ें</string>
+    <string name="Withdraw">निकालना</string>
+    <string name="EnterAmount">राशी डालें</string>
+    <string name="PermonthText">प्रति माह आप अपने बटुए में \ n टीटीडी $ 20000 तक जोड़ सकते हैं क्यों?</string>
+    <string name="PermonthText2">अपने बटुए में</string>
+    <string name="Why">क्यूं कर?</string>
+    <string name="Confirm">की पुष्टि करें</string>
+    <string name="Creditdebit">क्रेडिट डेबिट</string>
+    <string name="SaveCards">कार्ड बचाओ</string>
+    <string name="CardNumber">कार्ड नंबर</string>
+    <string name="CVV">सीवीवी</string>
+    <string name="mmyy">महीना साल</string>
+    <string name="Savemycard">भविष्य के उपयोग के लिए मेरा कार्ड सहेजें</string>
+    <string name="EnteredAmount">दर्ज की गई राशि</string>
+    <string name="CreditedtoBank">बैंक में जमा किया गया</string>
+    <string name="Withdrawfee">फीस वापस ले ली</string>
+    <string name="inclusiveTax">समावेशी कर</string>
+    <string name="SelectBankAccount">बैंक खाता चुनें</string>
+    <string name="AddBankAccount">एक नया बैंक खाता जोड़ें</string>
+    <string name="ProceedToPay">चुकाने के लिए कार्रवाई शुरू करो </string>
+    <string name="Tappay">भुगतान के लिए कार्ड का चयन करने के लिए टैप करें</string>
+    <string name="Westoreyourcard">हम आपके कार्ड की जानकारी को भुगतान गेटवे सर्वर में संग्रहीत करते हैं</string>
+    <string name="Change">परिवर्तन</string>
+    <string name="Notallowed">अनुमति नहीं हैं</string>
+    <string name="PleaseEnterAmount">कृपया एक राशि दर्ज करें</string>
+    <string name="PleaseEnterValidAmount">कृपया एक मान्य राशि दर्ज करें</string>
+    <string name="PleaseAddBankAccount">कृपया एक नया बैंक खाता जोड़ें</string>
+    <string name="PleaseEnterMinimumAmount">कृपया न्यूनतम राशि दर्ज करें</string>
+    <string name="MakeAnotherWithdraw">एक और वापसी करें?</string>
+    <string name="Yes">हाँ</string>
+    <string name="No">नहीं</string>
+        <string name="PaidSuccessfully">सफ़लतापूर्वक भुगतान किया</string>
+    <string name="UnauthorizedAccess">अनाधिकृत उपयोग</string>
+    <string name="PleaseEnterValidCardDetails">कृपया एक मान्य कार्ड विवरण दर्ज करें</string>
+
+    <!--*************************** Event Screen***********************************-->
+    <string name="SearchEvent">आईडी, नाम से खोजें</string>
+    <string name="AboutEvent">घटना के बारे में</string>
+    <string name="Organizers">आयोजकों</string>
+    <string name="TermsCond">शर्तें &amp; cond</string>
+    <string name="BOOK">किताब</string>
+    <string name="YourRecentEventsAppearHere">आपकी हाल की ईवेंट्स सूची \ n यहाँ दिखाई देगी</string>
+    <string name="CurrentlyEventList">वर्तमान में सूची में कोई घटना नहीं है</string>
+    <string name="EventDescription">घटना विवरण</string>
+    <string name="BusinessName">व्यवास्यक नाम</string>
+    <string name="ReviewBooking">बुकिंग की समीक्षा करें</string>
+    <string name="TicketDetails">नंबर टिकट</string>
+    <string name="NoTickets">टिकट विवरण</string>
+    <string name="DateTime">दिनांक और समय</string>
+    <string name="Subtotal">उप कुल</string>
+    <string name="Servicetax">सेवा कर</string>
+    <string name="ConfirmationMessage">पुष्टि संदेश भेजेगा</string>
+    <string name="YourRecentTransactionWillAppearHere">आपका हालिया लेन-देन \ n यहाँ दिखाई देगा</string>
+    <string name="RequestReceivedFrom">से अनुरोध प्राप्त हुआ</string>
+    <string name="RequestSentTo">के लिए अनुरोध भेजा गया</string>
+    <string name="MoneyRequestSuccess">मनी रिक्वेस्ट सक्सेस</string>
+    <string name="RejectRequest">रिक्वेस्ट रिजेक्ट</string>
+    <string name="SENDMONEY">पैसे भेजो</string>
+    <string name="FROM">से</string>
+    <string name="EventName">कार्यक्रम नाम</string>
+    <string name="TicketBookedSuccessfully">टिकट सफलतापूर्वक बुक किया गया</string>
+    <string name="Venu">स्थान</string>
+    <string name="Date">दिनांक</string>
+    <string name="TicketType">टिकिट का प्रकार</string>
+    <string name="Time">पहर</string>
+    <string name="Price">मूल्य</string>
+    <string name="TicketID">टिकट आईडी</string>
+    <string name="BookingID">बुकिंग आईडी</string>
+    <string name="VERIFIED">सत्यापित</string>
+    <string name="SelectDate">तारीख़ चुनें</string>
+    <string name="SelectTime">समय का चयन करें</string>
+
+
+    <!--*************************** Event Screen***********************************-->
+    <string name="PleaseTryAgain">कुछ गलत हो गया। कृपया पुन: प्रयास करें</string>
+    <string name="ValidMobileNumber">कृपया एक सही संख्या डालिये</string>
+    <string name="EnterOldPassword">कृपया एक पुराना पासवर्ड डालें</string>
+        <string name="EnterNewPassword">कृपया एक नया पासवर्ड दर्ज करें</string>
+        <string name="EnterValidPassword">कृपया मान्य पासवर्ड दर्ज करें </string>
+    <string name="NoEventfound">कोई ईवेंट नहीं मिला</string>
+
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">स्कैन बारकोड</string>
+    <string name="no_barcode_captured">कोई बारकोड कैप्चर नहीं किया गया</string>
+    <string name="barcode_error_format">बारकोड पढ़ने में त्रुटि:% 1 $ s</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">ठीक</string>
+    <string name="permission_camera_rationale">कैमरे का उपयोग पता लगाने के लिए आवश्यक है</string>
+    <string name="no_camera_permission">यह एप्लिकेशन नहीं चल सकता क्योंकि इसमें कैमरा अनुमति नहीं है। आवेदन अब बाहर निकल जाएगा।</string>
+    <string name="low_storage_error">कम डिवाइस स्टोरेज के कारण फेस डिटेक्टर निर्भरताएं डाउनलोड नहीं की जा सकती हैं</string>
+
+
+    <!--Validation -->
+    <string name="BookingHistory">बुकिंग का इतिहास</string>
+    <string name="UpComingEvents">आने वाले कार्यक्रम</string>
+        <string name="CompletedEvents">पूरा हुआ कार्यक्रम</string>
+    <string name="YourRecentEventsAppear">आपकी हाल की ईवेंट्स सूची \ n यहाँ दिखाई देगी</string>
+    <string name="Onwards">आगे</string>
+
+    <!--Validation -->
+    <string name="PleaseEnterCardNumber">कृपया कार्ड नंबर दर्ज करें</string>
+    <string name="PleaseEnterExpiryYear">कृपया समाप्ति वर्ष दर्ज करें </string>
+    <string name="PleaseEnterValidExpiryYear">कृपया वैध समाप्ति वर्ष दर्ज करें </string>
+    <string name="PleaseEnterexpiryMonth">कृपया एक्सपायरी महीना दर्ज करें</string>
+    <string name="PleaseEnterValidexpiryMonth">कृपया वैध समाप्ति माह दर्ज करें</string>
+    <string name="PleaseEnterCvvnumber">कृपया CVV नंबर दर्ज करें</string>
+    <string name="PleaseEnterValidCvvnumber">कृपया मान्य सीवीवी नंबर दर्ज करें</string>
+    <string name="PleaseEnterTheAmount">कृपया राशि दर्ज करें</string>
+    <string name="PleaseEnterTheAmountGrater">कृपया 0 से अधिक राशि दर्ज करें</string>
+
+
+    <!--Kidss -->
+    <string name="RequestMoneyFromParents">अपने माता-पिता से पैसे का अनुरोध करें।</string>
+    <string name="PayMoneyToAnyMerchants">किसी भी आरपीए व्यापारियों को पैसे का भुगतान करें।</string>
+    <string name="TransactionHistoryDes">आरपीए ऐप पर आपका पिछला लेनदेन।</string>
+    <string name="OffersNearby">पास का ऑफर</string>
+    <string name="OffersNearbyDec">आपके आस-पास के व्यापारी ऑफ़र करते हैं</string>
+    <string name="EventsDec">घटनाओं की जानकारी सूची</string>
+    <string name="SendSticker">स्टिकर भेजें</string>
+    <string name="SendStickerDec">अपने मित्रों को स्टिकर भेजें</string>
+    <string name="Theme">विषय-वस्तु</string>
+    <string name="ThemeDec">अपनी थीम बदलें।</string>
+    <string name="ScanQRpay">भुगतान करने के लिए QR स्कैन करें</string>
+    <string name="MyKid">मेरे बच्चे</string>
+    <string name="MyKidDes">अपने बच्चों का पालन करें।</string>
+    <string name="SelectTheme">चुनिंदा विषय</string>
+    <string name="DOB">जन्म की तारीख</string>
+    <string name="Age">आयु</string>
+    <string name="AddChildInformation">अपने बच्चे की जानकारी जोड़ें</string>
+    <string name="SchoolName">विद्यालय का नाम</string>
+    <string name="SchoolAddress">स्कूल का पता</string>
+    <string name="PleaseEnterName">कृपया एक नाम दर्ज करें</string>
+    <string name="PleaseEnterDob">कृपया जन्म तिथि दर्ज करें</string>
+    <string name="PleaseEnterAge">कृपया एक आयु दर्ज करें</string>
+    <string name="PleaseEnterValidAge">कृपया एक वैध आयु दर्ज करें</string>
+    <string name="PleaseEnterSchoolName">कृपया एक स्कूल का नाम दर्ज करें</string>
+    <string name="PleaseEnterSchoolAddress">कृपया एक स्कूल का पता दर्ज करें</string>
+    <string name="Active">सक्रिय</string>
+    <string name="DeActive">डी-सक्रिय</string>
+    <string name="Appblock">ऐप की स्थिति</string>
+    <string name="Apply">लागू करें</string>
+    <string name="Gender">लिंग: </string>
+    <string name="Male">पुरुष</string>
+    <string name="Female">महिला</string>
+
+    <string name="Share">शेयर</string>
+    <string name="SharePost">इस पोस्ट को सोशल मीडिया में शेयर करें</string>
+    <string name="HidePost">इस पोस्ट को छुपाएं</string>
+    <string name="IDontWantPost">मैं इस पोस्ट को अपने फ़ीड में नहीं देखना चाहता</string>
+    <string name="Unfollowtheshop">दुकान को अनफॉलो कर दें</string>
+    <string name="StopSeeingFeedsShop">इस दुकान से फ़ीड देखना बंद करें</string>
+    <string name="ShareAnSticker">एक संदेश साझा करें</string>
+    <string name="POST">पद</string>
+    <string name="History">इतिहास</string>
+    <string name="PleaseTypeYourMssage">कृपया अपना संदेश लिखें</string>
+
+    <!--Recharge-->
+    <string name="Network">नेटवर्क</string>
+    <string name="SelectService">सेवा का चयन करें</string>
+    <string name="TotalAmount">कुल रकम</string>
+    <string name="Nickname">उपनाम</string>
+    <string name="PROCCEDTOPAY">चुकाने के लिए कार्रवाई शुरू करो</string>
+    <string name="RECENTPAYMENT">हाल ही में भुगतान</string>
+    <string name="Etisalat">Etisalat</string>
+    <string name="Du">ड्यू</string>
+    <string name="Salik">सालिग</string>
+    <string name="SelectPlan">प्लान का चयन करें</string>
+    <string name="NoInternetConnection">कोई इंटरनेट कनेक्शन नहीं!!!</string>
+    <string name="Locationisdisabled">स्थान अक्षम है</string>
+    <string name="LocationisdisabledDEC">स्थान सेवा अक्षम है कृपया स्थान सक्षम करें</string>
+    <string name="Permissionnecessary">अनुमति आवश्यक है</string>
+    <string name="ExternalStoragePermissionNecessary">बाहरी भंडारण की अनुमति आवश्यक है</string>
+    <string name="CameraPermissionNecessary">कैमरा अनुमति आवश्यक है</string>
+    <string name="Pleaseselectyouroperator">कृपया अपने ऑपरेटर का चयन करें</string>
+    <string name="pleasechooseanothernumber">कृपया कोई अन्य नंबर चुनें</string>
+    <string name="Prepaid">प्रीपेड</string>
+    <string name="Postpaid">पोस्टपेड</string>
+        <string name="SelectOperator">ऑपरेटर का चयन करें</string>
+
+    <!---GenerateQrPScreen-->
+    <string name="Insufficientwalletbalance">अपर्याप्त बटुआ संतुलन</string>
+
+    <!---Event Ticket Screen-->
+
+    <string name="pleaseselectadate">कृपया एक तिथि चुनें</string>
+    <string name="pleaseselectatime">कृपया एक समय चुनें</string>
+
+    <!-- Review Bookking Screen-->
+
+    <string name="InsufficientRewards">अपर्याप्त पुरस्कार</string>
+    <!-- EventHistoryScreen-->
+
+    <string name="Noeventsfound">कोई घटना नहीं मिली</string>
+    <!--AlternatewalletScreen-->
+    <string name="Nocards">कोई कार्ड नहीं है</string>
+    <string name="MoneyloadtowalletSuccessfully">सफल होने के लिए वॉलेट में पैसा लोड</string>
+    <string name="Version">संस्करण-</string>
+    <string-array name="country_arrays">
+        <item>+251</item>
+        <item>+1</item>
+    </string-array>
+
+</resources>
+
+
+
+
+

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_file">
+
+    <ImageView
+        android:id="@+id/backIconImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:elevation="5dp"
+        android:padding="12dp"
+        android:src="@drawable/close_icon" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/merchantImageView"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:padding="2dp"
+                android:background="@drawable/white_circle"
+                android:src="@drawable/user_image_post" />
+
+            <TextView
+                android:id="@+id/typeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/merchantImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Pay to"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/shopNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/merchantImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="43dp"
+                android:fontFamily="@font/regular"
+                android:text="Merchant Name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/amountlayoutt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shopNameEditText"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/currencyCodeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/amountPayEditText"
+                    android:fontFamily="@font/regular"
+                    android:paddingRight="10sp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/amountPayEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/regular"
+                    android:hint="0"
+                    android:textCursorDrawable="@drawable/custom_edit_text_cursor"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/white"
+                    android:textColorHint="#f5f5f5"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/amountlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/descriptionEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amountlayoutt"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/regular"
+                android:gravity="center"
+                android:textCursorDrawable="@drawable/custom_edit_text_cursor"
+                android:hint="What this for"
+                android:maxLength="80"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint_color"
+                android:textSize="17sp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabArrowButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:maxImageSize="20dp"
+                app:elevation="5dp"
+                app:fabCustomSize="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/descriptionEditText"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/right_arrow_svg" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabtickButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:maxImageSize="25dp"
+                app:elevation="5dp"
+                app:fabCustomSize="40dp"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/descriptionEditText"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/tick_verified" />
+
+
+            <Button
+                android:id="@+id/requestNowButton"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_below="@+id/descriptionEditText"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="50dp"
+                android:visibility="gone"
+                android:background="@drawable/gradient_corner"
+                android:fontFamily="@font/normal"
+                android:backgroundTint="@color/white"
+                android:text="REQUEST MONEY"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/errorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_below="@+id/requestNowButton"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:text="Selected customer didn't have RPay account"/>
+
+            <ImageView
+                android:id="@+id/uparrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fabArrowButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/up_arrow_svg"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/payableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/fabArrowButton"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/events_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/medium"
+                    android:text="Payment Details"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="13sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="Actual Cost"
+                        android:textColor="#60000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/actualAmountTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="0.00"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/foloosiFeeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/feeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="tax"
+                        android:textColor="#60000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/feeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/regular"
+                        android:text="0.00"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/feeAmountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/feeAmountText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="Fee"
+                        android:textColor="#60000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/feeAmountTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="0.00"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/extraFeeAmountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/extraFeeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="Extra Fee"
+                        android:textColor="#60000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/extraFeeAmountTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="0.00"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/payableText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="@string/TotalPayable"
+                        android:textColor="#60000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/payableAmountTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="0.00"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/payNowButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/payableLayout"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone"
+                    android:background="@drawable/gradient_corner"
+                    android:fontFamily="@font/normal"
+                    android:text="Proceed to pay"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

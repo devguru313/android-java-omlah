@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bannertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="@string/Entermobilenumbertopay" />
+
+    <RelativeLayout
+        android:id="@+id/mobileNumberButton"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/bannertext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccpPicker"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:ccp_hintExampleNumber="true"
+            android:visibility="invisible" />
+
+        <Spinner
+            android:id="@+id/numberCodeSpinner"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"></Spinner>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/numberCodeSpinner"
+            android:src="@drawable/spinner_arrow_small"/>
+
+        <EditText
+            android:id="@+id/mobileNumberEdiText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/numberCodeSpinner"
+            android:paddingLeft="10dp"
+            android:layout_toLeftOf="@+id/contactImageView"
+            android:hint="@string/MobileNumber"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/contactImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/contacts_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_alignStart="@+id/numberCodeSpinner"
+            android:layout_alignEnd="@+id/contactImageView"
+            android:layout_alignParentBottom="true"
+            android:background="@color/lineColor" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/payNowButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mobileNumberButton"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:background="@drawable/gradient_corner"
+        android:fontFamily="@font/normal"
+        android:text="Proceed"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/centerLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/payNowButton"
+        android:background="@color/lineColor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@+id/centerLine">
+
+        <TextView
+            android:id="@+id/chooseBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="@string/MyContacts"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/contactListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/chooseBanner"
+            android:divider="@null">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/errorImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/contact_empty"
+            android:text="@string/Yourbeneficiarylistisempty"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/orTextView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/white_round"
+        android:text="@string/OR"
+        android:gravity="center"
+        android:layout_marginTop="27dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/payNowButton"
+        android:textSize="13sp"/>
+
+</RelativeLayout>

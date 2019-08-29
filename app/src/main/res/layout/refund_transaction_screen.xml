@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+<LinearLayout
+    android:id="@+id/contentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="invisible">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/typeImageView"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/shop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/typeImageView"
+            android:layout_toRightOf="@+id/typeImageView">
+
+            <TextView
+                android:id="@+id/typeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paid for Shop"
+                android:textSize="14sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:layout_toStartOf="@+id/totalAmountTextView"
+                android:layout_toLeftOf="@+id/totalAmountTextView"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/totalAmountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/samountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/totalAmountTextView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUCCESS"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textColor="#098432"
+                android:textStyle="bold"
+                android:layout_below="@+id/typeTextView" />
+
+            <TextView
+                android:id="@+id/shopNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cascade store"
+                android:layout_marginTop="3dp"
+                android:textSize="13.5sp"
+                android:layout_below="@+id/statusTextView" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/refundamountText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:text="@string/RefundAmount"/>
+
+        <TextView
+            android:id="@+id/refundamountColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/refundamountText"
+            android:layout_toEndOf="@+id/refundamountText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/refundamountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/refundamountColoan"
+            android:layout_toEndOf="@+id/refundamountColoan"
+            android:text="TTD $600.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/refundTypeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:text="@string/RefundType"/>
+
+        <TextView
+            android:id="@+id/refundTypeColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/refundTypeText"
+            android:layout_toEndOf="@+id/refundTypeText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/refundTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/refundTypeColoan"
+            android:layout_toEndOf="@+id/refundTypeColoan"
+            android:text="TTD $600.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/transactedText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:text="@string/RefundDate"/>
+
+        <TextView
+            android:id="@+id/transactedColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/transactedText"
+            android:layout_toEndOf="@+id/transactedText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/transactedDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/transactedColoan"
+            android:layout_toEndOf="@+id/transactedColoan"
+            android:text="19/09/2017, 12.58pm"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/orderidText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:text="@string/TransactionID"/>
+
+        <TextView
+            android:id="@+id/orderidColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/orderidText"
+            android:layout_toEndOf="@+id/orderidText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/orderidTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/orderidColoan"
+            android:layout_toEndOf="@+id/orderidColoan"
+            android:text="FCAD123456789"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TransactionDetail"
+        android:textStyle="bold"
+        android:fontFamily="@font/medium"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/amountText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:text="@string/Amount"/>
+
+        <TextView
+            android:id="@+id/amountColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/amountText"
+            android:layout_toEndOf="@+id/amountText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/amountColoan"
+            android:layout_toEndOf="@+id/amountColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/popPayFeeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/popPayFeeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:text="@string/PopPayFee"/>
+
+        <TextView
+            android:id="@+id/popPayFeeColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/popPayFeeText"
+            android:layout_toRightOf="@+id/popPayFeeText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/popPayFeeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/popPayFeeColoan"
+            android:layout_toEndOf="@+id/popPayFeeColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/taxLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/serviceFeeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:text="@string/Tax"/>
+
+        <TextView
+            android:id="@+id/serviceFeeColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/serviceFeeText"
+            android:layout_toRightOf="@+id/serviceFeeText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/taxAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toEndOf="@+id/serviceFeeColoan"
+            android:layout_toRightOf="@+id/serviceFeeColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/offerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/offerText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:paddingRight="25dp"
+            android:paddingEnd="25dp"
+            android:layout_centerVertical="true"
+            android:text="@string/PopPayFee"/>
+
+        <TextView
+            android:id="@+id/offerColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/offerText"
+            android:layout_toEndOf="@+id/offerText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/offerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/offerColoan"
+            android:layout_toEndOf="@+id/offerColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/redeemAmountLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/redeemAmountText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:text="@string/RewardOffer"/>
+
+        <TextView
+            android:id="@+id/redeemAmountColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/redeemAmountText"
+            android:layout_toEndOf="@+id/redeemAmountText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/redeemAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/redeemAmountColoan"
+            android:layout_toEndOf="@+id/redeemAmountColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tipLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tipFeeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:text="@string/Tip"/>
+
+        <TextView
+            android:id="@+id/tipFeeColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tipFeeText"
+            android:layout_toEndOf="@+id/tipFeeText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/tipAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toEndOf="@+id/tipFeeColoan"
+            android:layout_toRightOf="@+id/tipFeeColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/refundTLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:visibility="gone"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/refundFeeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Refund Amount"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/refundFeeColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/refundFeeText"
+            android:layout_toRightOf="@+id/refundFeeText"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/refundTAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/refundFeeColoan"
+            android:layout_toRightOf="@+id/refundFeeColoan"
+            android:text="0.00"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/totalPayableText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:text="@string/Total"/>
+
+        <TextView
+            android:id="@+id/totalPayableColoan"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/totalPayableText"
+            android:layout_toRightOf="@+id/totalPayableText"
+            android:layout_centerVertical="true"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/totalPayableTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_toEndOf="@+id/totalPayableColoan"
+            android:layout_toRightOf="@+id/totalPayableColoan"
+            android:text="0.00"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/descriptionLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:visibility="gone"
+        android:background="@color/lineColor"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:textSize="13.5sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="@string/Description"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="13sp"
+        android:visibility="gone"
+        android:text="This is sample desvription lghhgi fhdf dfh dfhgdfhg dfhgdfihgidf gdfihdif hidfgdfhdf dfhgdkf dfjghdfjkghdfjkghdfjgh dfjghdfhg"/>
+
+    <TextView
+        android:id="@+id/rewardLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/earnPointsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="12.5sp"
+        android:drawablePadding="10dp"
+        android:visibility="gone"
+        android:fontFamily="@font/normal"
+        android:layout_gravity="center|start"
+        android:text=""
+        android:drawableStart="@drawable/reward_star"
+        android:drawableLeft="@drawable/reward_star"/>
+
+
+</LinearLayout>
+</ScrollView>

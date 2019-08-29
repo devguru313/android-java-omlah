@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+        <RadioGroup
+            android:id="@+id/tabRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@+id/shopsButton"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/shopsButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tabs_selector"
+                android:button="@null"
+                android:fontFamily="@font/normal"
+                android:gravity="center"
+                android:text="@string/Shops"
+                android:textColor="@drawable/selected_tab_textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/sellerButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tabs_selector"
+                android:button="@null"
+                android:fontFamily="@font/normal"
+                android:gravity="center"
+                android:text="@string/Seller"
+                android:textColor="@drawable/selected_tab_textcolor"
+                android:textSize="13sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@+id/tabLayout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/gray_border">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+                android:tint="#c6c6c6"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/search_icon"/>
+
+            <EditText
+                android:id="@+id/locationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/closeIconImageView"
+                android:layout_toStartOf="@+id/closeIconImageView"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/normal"
+                android:singleLine="true"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:hint="@string/Search"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/closeIconImageView"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:layout_toLeftOf="@+id/gpsButton"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/close_icon_black"/>
+
+            <ImageView
+                android:id="@+id/gpsButton"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="10dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/gps" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/nearByListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:drawableTop="@drawable/location"
+        android:gravity="center"
+        android:text=""
+        android:visibility="gone" />
+
+</RelativeLayout>

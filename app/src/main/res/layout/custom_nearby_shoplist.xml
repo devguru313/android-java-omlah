@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/contentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingRight="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/shop" />
+
+    <RelativeLayout
+        android:id="@+id/shopDeatilslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/typeImageView"
+        android:layout_toRightOf="@+id/typeImageView">
+
+        <TextView
+            android:id="@+id/shopNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop Name"
+            android:textSize="12sp"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toRightOf="@+id/distanceTextView"
+            android:layout_toEndOf="@+id/distanceTextView"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="11sp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/normal"
+            android:drawableLeft="@drawable/location"
+            android:drawableStart="@drawable/location"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/shopAddresstextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="56-58 Supermarket Supermarket for groceries and more"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toRightOf="@+id/distanceTextView"
+            android:layout_toEndOf="@+id/distanceTextView"
+            android:layout_below="@+id/shopNameTextView" />
+
+        <TextView
+            android:id="@+id/navigateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Navigate"
+            android:textSize="11sp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/distanceTextView"
+            android:textColor="@color/red"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navigatelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/typeImageView"
+        android:layout_toEndOf="@+id/typeImageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/shopDeatilslayout">
+
+        <TextView
+            android:id="@+id/restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="3dp"
+            android:background="@drawable/gray_white_border"/>
+
+        <TextView
+            android:id="@+id/Grocery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grocery"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:visibility="gone"
+            android:layout_toRightOf="@+id/restaurant"
+            android:layout_toEndOf="@+id/restaurant"
+            android:background="@drawable/gray_white_border"/>
+
+
+        <TextView
+            android:id="@+id/laundry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laundry"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:padding="3dp"
+            android:visibility="gone"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/Grocery"
+            android:layout_toEndOf="@+id/Grocery"
+            android:background="@drawable/gray_white_border"/>
+
+        <TextView
+            android:id="@+id/shopOffertextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="10% off"
+            android:textColor="@color/black"
+            android:fontFamily="@font/medium"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/rewardIndication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/reward_star"
+        android:drawableStart="@drawable/reward_star"
+        android:layout_below="@+id/navigatelayout"
+        android:textSize="9sp"
+        android:drawablePadding="10dp"
+        android:gravity="center|start"
+        android:text="@string/RewardAlert"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/typeImageView"
+        android:layout_toEndOf="@+id/typeImageView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_below="@+id/rewardIndication"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/typeImageView"
+        android:layout_toEndOf="@+id/typeImageView"/>
+
+</RelativeLayout>

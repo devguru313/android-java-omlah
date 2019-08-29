@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:id="@+id/layoutfirst"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RequestReceivedFrom"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/totalAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TTD $510"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/datetextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="September 10, 09:50 pm"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fromTextView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/white_round"
+        android:text="@string/FROM"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@+id/layoutfirst">
+
+        <TextView
+            android:id="@+id/receiverNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Henry Anderson"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/numberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 12345 67892"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Description"
+            android:textSize="13sp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer comments"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/popPayIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request ID : 54gdsrgd54gr5g4r5g"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/sendMoneyButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SENDMONEY"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_squre"/>
+
+        <TextView
+            android:id="@+id/rejectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RejectRequest"
+            android:textSize="14sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

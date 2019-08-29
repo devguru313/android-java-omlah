@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingRight="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/popcoin" />
+
+    <RelativeLayout
+        android:id="@+id/detailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/typeImageView"
+        android:layout_toEndOf="@+id/typeImageView">
+
+        <TextView
+            android:id="@+id/orderAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AED 250"
+            android:textSize="12sp"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/amountTextView"
+            android:layout_toStartOf="@+id/amountTextView"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/earningPointTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50 Points"
+            android:textSize="12sp"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Earned"
+            android:textSize="9sp"
+            android:layout_below="@+id/earningPointTextView"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/orderIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID : FOL123456"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/orderAmountTextView" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="July 28, 01.59 pm"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/orderIdTextView" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_below="@+id/detailsLayout"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/typeImageView"
+        android:layout_toEndOf="@+id/typeImageView"/>
+
+</RelativeLayout>

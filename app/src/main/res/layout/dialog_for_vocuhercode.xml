@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a000000">
+
+    <ImageView
+        android:id="@+id/backIconImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_round"
+        android:padding="13dp"
+        android:tint="@color/black"
+        android:src="@drawable/back_arrow" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/centerCard"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerInParent="true"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.omlah.customer.common.ScratchTextView
+                android:id="@+id/voucherCodeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:fontFamily="@font/normal"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/centerCard"
+        android:background="@drawable/gradient_corner"
+        android:text="@string/Continue"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/scratchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scratch your card"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/centerCard"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

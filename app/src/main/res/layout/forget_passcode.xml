@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/getStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="@string/ResetSecurityPin"
+        android:textAllCaps="true"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="1.5dp"
+        android:background="@color/yellow"
+        android:layout_gravity="center"
+        android:id="@+id/textView" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/securityPinEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/NewSecurityPin"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:maxLength="4"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="15sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/red" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/otpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/OTP"
+        android:text="1234 ( test OTP )"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="15sp"
+        app:met_baseColor="@color/black"
+        app:met_errorColor="@color/red"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/red" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/CheckregesteredEmail"/>
+
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:fontFamily="@font/medium"
+        android:layout_below="@+id/forgotPasswordTextView"
+        android:text="@string/Continue"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:background="@drawable/gradient_corner"/>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="loader_view">
+        <attr name="width_weight" format="float" />
+        <attr name="height_weight" format="float" />
+        <attr name="use_gradient" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScannerOverlay">
+        <attr name="square_width" format="integer" />
+        <attr name="square_height" format="integer" />
+        <attr name="line_color" format="color" />
+        <attr name="line_width" format="integer" />
+        <attr name="line_speed" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BarcodeReader">
+        <attr name="auto_focus" format="boolean" />
+        <attr name="use_flash" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomSeekBar">
+        <attr name="dms_rotation">
+            <enum name="CW90" value="90" />
+            <enum name="CW270" value="270" />
+        </attr>
+        <attr name="dms_thumbSize" format="dimension"/>
+        <attr name="dms_thumbDrawable" format="reference"/>
+        <attr name="dms_outsideControl" format="boolean"/>
+        <attr name="dms_background" format="reference"/>
+        <attr name="dms_progressDrawable" format="reference"/>
+        <attr name="dms_isHideProgressInit" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DynamicSeekBarView">
+        <attr name="dsbv_thumbSize" format="dimension"/>
+        <attr name="dsbv_thumbDrawable" format="reference"/>
+        <attr name="dsbv_progressColor" format="reference"/>
+        <attr name="dsbv_progressBackgroundColor" format="reference"/>
+        <attr name="dsbv_progressDrawable" format="reference"/>
+        <attr name="dsbv_infoSize" format="dimension"/>
+        <attr name="dsbv_infoTextSize" format="dimension"/>
+        <attr name="dsbv_infoTextColor" format="reference"/>
+        <attr name="dsbv_infoRadius" format="integer"/>
+        <attr name="dsbv_infoBackgroundColor" format="reference"/>
+        <attr name="dsbv_infoInitText" format="reference"/>
+        <attr name="dsbv_max" format="integer"/>
+        <attr name="dsbv_progress" format="integer"/>
+        <attr name="dsbv_isHideInfo" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+</resources>

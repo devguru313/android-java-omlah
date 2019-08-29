@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/bannertag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/normal"
+        android:text="@string/Recharge"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/closeButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="13dp"
+        android:src="@drawable/close_icon_black" />
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bannertag"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gray_white_border">
+
+        <TextView
+            android:id="@+id/currencyCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="10dp"
+            android:text=""
+            android:textColor="@color/gray_bold"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/numberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/currencyCode"
+            android:layout_toLeftOf="@+id/contactImageView"
+            android:layout_toRightOf="@+id/currencyCode"
+            android:layout_toStartOf="@+id/contactImageView"
+            android:background="@android:color/transparent"
+            android:digits="0123456789"
+            android:hint="@string/MobileNumber"
+            android:inputType="number"
+            android:maxLength="15"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/contactImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="13dp"
+            android:src="@drawable/contacts_icon" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/continuebutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mainLayout"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#c6c6c6"
+        android:text="@string/Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/paymentTextBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/continuebutton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/RECENTPAYMENT"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/recentTranactionListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/paymentTextBanner"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:divider="@null"></ListView>
+
+    <TextView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymentTextBanner"
+        android:layout_marginTop="130dp"
+        android:drawableTop="@drawable/timer"
+        android:gravity="center"
+        android:text="@string/RecentTransactionAppearHere"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/loadingProgressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymentTextBanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp" />
+
+</RelativeLayout>

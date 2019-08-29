@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/EventDescription"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="@dimen/bottom_ellipsis_height"
+        android:text="Science Olympiad Events are balanced among the three broad areas of the Science Standards. Click on Event Name for a short description of the event for the 2016-2017 school year. Individual Event Info Pages for the 46 events are updated with 2017 content throughout the fall."
+        android:textSize="13sp" />
+
+</LinearLayout>

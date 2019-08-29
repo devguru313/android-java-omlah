@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/actionBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/backIconImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="16dp"
+            app:srcCompat="@drawable/back_arrow"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/actionBarTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/backIconImageView"
+            android:layout_toRightOf="@+id/backIconImageView"
+            android:fontFamily="@font/normal"
+            android:text="@string/AddCard"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/cardNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toLeftOf="@+id/cardIcon"
+        android:layout_toStartOf="@+id/cardIcon"
+        android:digits="0123456789"
+        android:hint="@string/CardNumber"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:textSize="14.5sp" />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/mmyy"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:textSize="14.5sp" />
+
+    <EditText
+        android:id="@+id/cvvEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toLeftOf="@+id/lockIcon"
+        android:layout_toStartOf="@+id/lockIcon"
+        android:hint="@string/CVV"
+        android:digits="0123456789"
+        android:inputType="numberPassword"
+        android:maxLength="3"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:textSize="14.5sp" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0EA18D"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/medium"
+        android:text="@string/SUBMIT"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+
+</LinearLayout>

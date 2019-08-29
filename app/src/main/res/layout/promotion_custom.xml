@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/contentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/events_border"
+        android:orientation="vertical">
+
+        <com.omlah.customer.common.SelectableRoundedImageView
+            android:id="@+id/promotionImageView"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            android:adjustViewBounds="true"
+            app:sriv_left_top_corner_radius="5dp"
+            app:sriv_right_top_corner_radius="5dp"
+            app:sriv_left_bottom_corner_radius="0dp"
+            app:sriv_right_bottom_corner_radius="0dp"
+            app:sriv_oval="false"  />
+
+        <TextView
+            android:id="@+id/promotionNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/promotionImageView"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Get upto 200% Cashback"
+            android:layout_toLeftOf="@+id/bookButton"
+            android:layout_toStartOf="@+id/bookButton"
+            android:textColor="#D61528"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/promotionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/promotionNameTextView"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/bookButton"
+            android:layout_toStartOf="@+id/bookButton"
+            android:maxLines="2"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="5dp"
+            android:text="There is a little bit of twist in this offer. They offer 100% cashback but in a instalment"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/bookButton"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/promotionImageView"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/event_button"
+            android:fontFamily="@font/normal"
+            android:gravity="center"
+            android:text="Buy Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

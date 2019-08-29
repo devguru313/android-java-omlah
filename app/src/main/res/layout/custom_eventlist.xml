@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/events_border"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/eventErrorImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#F5F5F5"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginStart="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO IMAGE"
+                android:textSize="12sp"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/nav_event"
+                android:layout_marginRight="0.5dp"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/eventImageView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@drawable/no_eventimage" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/dateLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/monthTextView"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:text="MAY"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="#0082cb" />
+
+                <TextView
+                    android:id="@+id/dateTextView"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/monthTextView"
+                    android:text="18"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dayTextView"
+                    android:layout_width="50dp"
+                    android:gravity="center"
+                    android:textSize="11sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Onwards" />
+
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/centerLine"
+                android:layout_width="0.5dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#c6c6c6"
+                android:layout_toRightOf="@+id/dateLayout"
+                android:layout_toEndOf="@+id/dateLayout"/>
+
+            <LinearLayout
+                android:id="@+id/detailsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/centerLine"
+                android:layout_toEndOf="@+id/centerLine">
+
+                <TextView
+                    android:id="@+id/eventNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:maxLines="1"
+                    android:fontFamily="@font/normal"
+                    android:text="Inter-City #"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/placeNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_marginTop="3dp"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/normal"
+                    android:textColor="#666666"
+                    android:text="Place Name" />
+
+                <TextView
+                    android:id="@+id/locationTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11sp"
+                    android:maxLines="1"
+                    android:fontFamily="@font/normal"
+                    android:layout_marginTop="3dp"
+                    android:visibility="visible"
+                    android:text="80+ people intrested" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#c6c6c6"/>
+
+        <RelativeLayout
+            android:id="@+id/navigatelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/typeImageView"
+            android:layout_toEndOf="@+id/typeImageView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/shopDeatilslayout">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:scrollbars="none"
+                android:layout_toLeftOf="@+id/bookButton"
+                android:layout_toStartOf="@+id/bookButton">
+
+            <LinearLayout
+                android:id="@+id/myLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+               <TextView
+                   android:id="@+id/oneCat"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Complex"
+                   android:padding="5dp"
+                   android:textSize="11sp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginEnd="10dp"
+                   android:visibility="gone"
+                   android:background="@drawable/gray_border"/>
+
+                <TextView
+                    android:id="@+id/twoCat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complex"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:textSize="11sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/gray_border"/>
+
+                <TextView
+                    android:id="@+id/threeCat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complex"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:textSize="11sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/gray_border"/>
+
+                <TextView
+                    android:id="@+id/fourCat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complex"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="11sp"
+                    android:background="@drawable/gray_border"/>
+
+                <TextView
+                    android:id="@+id/fiveCat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complex"
+                    android:padding="5dp"
+                    android:textSize="11sp"
+                    android:visibility="gone"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/gray_border"/>
+
+            </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/bookButton"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="@string/BOOK"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:fontFamily="@font/normal"
+                android:textColor="@color/white"
+                android:background="@drawable/event_button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

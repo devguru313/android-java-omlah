@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A459A</color>
+    <color name="colorPrimaryDark">#003585</color>
+    <color name="colorAccent">#003585</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lineColor">#56989898</color>
+    <color name="darkred">#0072AA</color>
+    <color name="gray">#959595</color>
+    <color name="dgray">#c6c6c6</color>
+    <color name="darkgray">#666666</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#ffb432</color>
+    <color name="green">#098432</color>
+
+    <color name="transparent">#11000000</color>
+    <color name="dull">#cccccc</color>
+
+    <color name="QRCodeBlackColor">#1A459A</color>
+    <color name="darkblue">#1A459A</color>
+    <color name="QRCodeWhiteColor">#FFFFFF</color>
+
+    <color name="scanner_line">#e13d21</color>
+
+
+    <color name="red">#FF4E34</color>
+
+    <color name="ripplecolor">#7ed3ee</color>
+
+    <color name="default_color">#3F51B5</color>
+    <color name="gray_bold">#919191</color>
+    <color name="buttonColor">#0EA18D</color>
+
+
+    <color name="theme_one_color">#D91375</color>
+    <color name="theme_two_color">#6341FD</color>
+    <color name="theme_three_color">#8B09FF</color>
+    <color name="theme_four_color">#4FD1B0</color>
+
+    <color name="hint_color">#88FAFAFA</color>
+
+</resources>

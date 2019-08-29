@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Omlah</string>
+    <string name="appname">Omlah</string>
+    <string name="offer">عرض</string>
+    <string name="facebook_app_id" translatable="false">1667681846678610</string>
+    <string name="SELECTALANGUAGE">اختر لغة</string>
+    <string name="AddBankAccountScreen">إضافة حساب مصرفي</string>
+    <string name="PaymentDetails">بيانات الدفع</string>
+    <string name="Select">تحديد</string>
+    <string name="SelectPaymentMode">اختر طريقة الدفع</string>
+    <string name="AmountPayable">المبلغ المستحق</string>
+    <string name="VIEWALLCARDS">عرض جميع البطاقات</string>
+
+
+    <!--****************************SPLASH SCREEN**********************************-->
+    <string name="DigitalPaymentSolution">حلول مالية رقمية</string>
+    <string name="NEWUPDATE">تحديث جديد</string>
+    <string name="UpdateNow">تحديث الان</string>
+    <string name="NOTNOW">ليس الان</string>
+    <!--****************************INTRO SCREEN**********************************-->
+    <string name="string_first">ارسال و استقبال المبالغ</string>
+    <string name="string_second">اطلب من المتجر القيام بمسح الكود للدفع</string>
+    <string name="string_third">احجز مناسبتك معنا</string>
+    <string name="string_forth">تعبئة رصيدك بوقت سريع</string>
+    <string name="content_Zero">حلول مالية رقمية</string>
+    <string name="content_first">استخدم الدفع لإرسال المبالغ و استقبالها في عمليات الاونلاين</string>
+    <string name="content_second">ادفع بخاصية مسح الكود خلال اجزاء من الثانيه</string>
+    <string name="content_third">باستطاعتك شراء تذاكر المناسبة المقدمة من المتجر</string>
+    <string name="content_forth">باستطاعتك شراء تذاكر المناسبة المقدمة من المتجر</string>
+    <string name="LOGIN">دخول</string>
+    <string name="REGISTER">سجل</string>
+
+    <!--*************************** GetStarted Screen***********************************-->
+    <string name="GetStarted">إبدأ</string>
+    <string name="MobileNumber">رقم الموبايل</string>
+    <string name="Continue">استمر</string>
+    <string name="LoginDes">قم باستخدام تطبيقنا لتجربة خدمات الدفع والعروض المتوفرة لدينا</string>
+    <string name="EnterValidNumber">ادخل رقم صحيح</string>
+
+    <!--*************************** Signup Screen***********************************-->
+    <string name="FirstName">الاسم الاول</string>
+    <string name="LastName">اسم العائلة</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="SelectYourCountry">اختار بلدك</string>
+    <string name="ReferCode">كود التعريف</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="EnterFirstName">الرجاء إدخال الاسم الأول</string>
+    <string name="EnterLastName">الرجاء إدخال اسم العائلة</string>
+    <string name="EnterEmail">يرجى ادخال البريد الإلكتروني</string>
+    <string name="EnterValidEmail">يرجى إدخال البريد الإلكتروني الصحيح</string>
+    <string name="EnterNumber">الرجاء إدخال رقم</string>
+    <string name="EnterCountry">رجاء قم بإختيار دوله</string>
+    <string name="EnterPassword">الرجاء إدخال كلمة المرور</string>
+    <string name="ResetPasswordText">يجب ان تحتوي كلمة المرور على ٦ أحرف يكون من بينها على الاقل رقم واحد</string>
+    <string name="Invalidreferralcode">رمز الإحالة غير صالح</string>
+    <string name="EnterValidReferCode">الرجاء إدخال رمز إحالة صالح</string>
+    <string name="UpdatePlayService">يرجى تحديث خدمة google play !!!</string>
+    <string name="Ok">موافق</string>
+    <string name="Cancel">الغاء</string>
+
+
+
+    <string name="LogoutForOtherDevice">تسجيل الخروج لجهاز آخر</string>
+    <string name="AlreadyYouLoggedIn">لقد قمت بالفعل بتسجيل الدخول إلى جهاز آخر ، لذا يرجى النقر فوق \"موافق\" لمتابعة هذا الجهاز.</string>
+    <string name="AreYouSureWantToExit">هل ترغب فعلا بالخروج</string>
+    <string name="SCANQRCODE">مسح رمز الاستجابة السريعة</string>
+    <string name="FINDNEARBY">البحث عن قرب</string>
+    <string name="PAYNOW">ادفع الآن</string>
+    <string name="RECEIVE">تسلم</string>
+    <string name="RequestMoney">طلب المال</string>
+    <string name="Myfamilyfriendlist"> عائلتي &amp;؛ قائمة الأصدقاء</string>
+    <string name="Yourbeneficiarylistisempty">قائمة المستفيدين الخاصة بك فارغة</string>
+    <string name="SendMoney">إرسال الأموال</string>
+    <string name="Pleasetryagain">حاول مرة اخرى..</string>
+
+
+    <!--*************************** GetStarted Screen***********************************-->
+
+
+    <string name="ORSIGNUP">أو تسجيل الدخول مع</string>
+    <string name="Facebook">فيس بوك</string>
+    <string name="Google">جوجل</string>
+    <string name="PleaseEnterNewPin">يرجى إدخال رمز سري جديد</string>
+    <string name="PleaseEnterOTP">يرجى إدخال رمز السر لمرة واحدة</string>
+    <string name="PleaseEnterValidOTP">يرجى إعادة إدخال رمز سري صالح لمرة واحدة</string>
+    <string name="PinChanged">تم تغيير رمز الأمان بنجاح</string>
+    <string name="CheckregesteredEmail">تحقق من الرمز السر لمرة واحدة على رقم هاتفك المحمول المسجل أو البريد الإلكتروني المسجل.</string>
+    <string name="ConfirmPayment">تأكيد الدفع</string>
+    <string name="PleaseEnterValidAmountYouHave">الرجاء إدخال مبلغ صالح ، لديك</string>
+    <string name="RemainingYourWallet">المتبقي في محفظتك.</string>
+    <string name="WouldYouLikeAddTip">"هل ترغب في إضافة بقشيش "</string>
+    <string name="Youget">لقد حصلت على</string>
+    <string name="RewardPointsAfterPaymentSuccess">نقاط المكافأة بعد نجاح الدفع</string>
+    <string name="ShopName">اسم المحل</string>
+    <string name="AmountPay">المبلغ المدفوع</string>
+
+
+    <!--*************************** Login Screen***********************************-->
+    <string name="WelcomeBack">مرحبا بعودتك!</string>
+    <string name="ForgotPassword">نسيت / أنشئ كلمة المرور؟</string>
+    <string name="EnterMobileNumber">الرجاء إدخال رقم الجوال</string>
+    <string name="ClearExitSession">واضح وجود جلسة لتسجيل الدخول</string>
+    <string name="OTPsent">تم إرسال الرمز السري لمرة واحدة بنجاح في رقمك المسجل وبريدك الإلكتروني</string>
+
+    <!--****************************FORGOT PASSWORD SCREEN**********************************-->
+    <string name="ResetPassword">إعادة تعيين كلمة المرور</string>
+    <string name="ResetSecurityPin">إعادة ضبط رمز الأمان</string>
+    <string name="NewPassword">كلمة السر الجديدة</string>
+    <string name="NewSecurityPin">رمز الأمان الجديد</string>
+    <string name="OldPassword">كلمة المرور القديمة</string>
+    <string name="OTP">الرمز السري لمرة واحدة</string>
+    <string name="CheckOTP">تحقق من الرمز السري لمرة واحدة على رقم جوالك المسجل أو البريد الإلكتروني المسجل.</string>
+    <string name="ENTERNEWPASSWORD">يرجى إدخال كلمة مرور جديدة</string>
+    <string name="ENTEROTP">يرجى إدخال الرمز السري لمرة واحدة</string>
+    <string name="ENTERVALIDOTP">يرجى إعادة إدخال رمز سري لمرة واحدة صالح</string>
+
+
+    <!--****************************PASSCODE SCREEN**********************************-->
+    <string name="CreatePin">يرجى إدخال رمز الأمان الخاص</string>
+    <string name="EnterPin">قم بإنشاء رمز الأمان الخاص بك</string>
+    <string name="TouchIDPasscode">Touch ID or Enter Passcode</string>
+    <string name="SecureAccess">هذا الرمز سوف يضمن وصولك إلى</string>
+    <string name="PersonalData">بيانات شخصية</string>
+    <string name="ForgotPin">نسيت الرمز ؟</string>
+    <string name="Reenter">الرجاء إعادة إدخال رمز الأمان الصحيح</string>
+    <string name="ConfirmSecurityPin">قم بتأكيد رمز الأمان الخاص بك</string>
+    <string name="NewPin">قم بإنشاء رمز الأمان الجديد الخاص بك</string>
+    <string name="OldPin">الرجاء إدخال رمز الأمان القديم</string>
+    <string name="OTPsentsuccessfully">تم إرسال OTP بنجاح</string>
+    <string name="Delete">امسح</string>
+    <!--****************************OTP  SCREEN**********************************-->
+    <string name="OTPVerification">التحقق من الرمز السري لمرة واحدة</string>
+    <string name="OTPBanner">اجلس واسترخي ! بينما نتحقق من رقم جوالك</string>
+    <string name="OtpToast">(أدخل كلمة المرور الخاصة بـ الرمز السري لمرة واحدة أدناه في حالة عدم اكتشاف نص الرسالة تلقائيا)</string>
+    <string name="ResendCode">اضغط لإعادة إرسال الكود</string>
+
+
+    <!--****************************BASE SCREEN**********************************-->
+    <string name="Home">الصفحة الرئيسية</string>
+    <string name="Nearby">متاجر</string>
+    <string name="Feeds">إقتباسات</string>
+    <string name="Events">المناسبات</string>
+    <string name="Stores">متاجر</string>
+    <string name="More">أكثر</string>
+    <string name="RPay">RPay</string>
+    <!--***************************HOME  SCREEN ***********************************-->
+    <string name="WalletBalance">رصيد المحفظة</string>
+    <string name="BalanceDetails">عرض تفاصيل الرصيد ></string>
+    <string name="ADDMONEY">إضافة رصيد</string>
+    <string name="PopCoins">عملات رقمية</string>
+    <string name="POPPAYNOW">RPAY NOW</string>
+    <string name="RecentTransaction">الحساب الأخير</string>
+    <string name="Send">أرسل</string>
+    <string name="Request">أطلب</string>
+    <string name="WALLET">المحفظة</string>
+    <string name="RECHARGE">دفع فاتورة</string>
+    <string name="BILLPAYMENT">التحويلات</string>
+    <string name="TRANSACTIONS">الحسابات</string>
+    <string name="REFERRAL">إحالة صديق</string>
+    <string name="REWARDS">المكافآت</string>
+    <string name="BillPayment">دفع فاتورة</string>
+    <string name="ComingSoon">قريبا...</string>
+    <string name="SelectNetwork">اختر شبكة</string>
+    <string name="Recharge">تعبئة رصيد</string>
+    <string name="YouRecentRewardsWillAppearHere">سوف تظهر لك المكافآت الأخيرة هنا</string>
+    <string name="RechargeBillPaymentsampmore">إعادة الشحن ، دفع الفواتير &amp;؛ أكثر من</string>
+    <string name="Earn200morepointstoredeemalenovaLaptop">اربح 200 نقطة إضافية لاسترداد الكمبيوتر المحمول من لينوفو</string>
+    <string name="pleaseenteraamount">يرجى ادخال المبلغ</string>
+    <string name="pleaseenteravalidamount">يرجى إدخال مبلغ صالح</string>
+    <string name="Thisdeviceisnotsupported">لا يتم اعتماد هذا الجهاز.</string>
+    <string name="Sessionexpiredpleaselogintocontinue">انتهت الجلسة ، يرجى تسجيل الدخول للمتابعة</string>
+    <string name="DealsNearbyyou">عروض قريبة منك</string>
+    <!--****************************MORE SCREEN**********************************-->
+    <string name="Mywallet">محفظتك</string>
+    <string name="MyAccount">ملفك الشخصي </string>
+    <string name="MyAccountDes">إدارة معلومات ملفك الشخصي هنا.</string>
+    <string name="MyWalletDes">اشحن محفظتك من بطاقتك الائتمانية.</string>
+    <string name="Transaction">كشف حساب </string>
+    <string name="MyVoucherCode">كود الكوبون </string>
+    <string name="TransactionDes">المعاملات السابقة الخاصة بك على التطبيق والتجار الآخرين.</string>
+    <string name="MoneyRequest">طلب مبلغ </string>
+    <string name="MoneyRequestDes">يمكنك طلب المال من العملاء الآخرين.</string>
+    <string name="MyVoucherCodeDes">معلومات كود القسيمة الخاصة بك هنا.</string>
+    <string name="EventBooking">المناسبات التي تم حجزها سابقا </string>
+    <string name="EventBookingDes">سجل الحجز الأخير على التطبيق والتجار الآخرين.</string>
+    <string name="Popcoins">عروض </string>
+    <string name="PopcoinsDes">كسب النقود من التاجر ، احصل على فوائد من.</string>
+    <string name="MyContacts">لائحة المستفيدين </string>
+    <string name="AddBeneficiary">إضافة المستفيد</string>
+    <string name="MyContactsDes">إضافة جميع المعلومات المستفيد الخاص بك هنا.</string>
+    <string name="ReferAndEarn">الرجوع &amp;؛ كسب</string>
+    <string name="ReferAndEarnDes">إحالة أصدقائك وكسب.</string>
+    <string name="Bussinesaccount">سجل كحساب تجاري</string>
+    <string name="BussinesaccountDes">المعاملات السابقة الخاصة بك على التطبيق والتجار الآخرين.</string>
+    <string name="Rfid">بطاقة ذكية</string>
+    <string name="RfidDes">البطاقة الذكية الخاصة بك.</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="SettingsDes">جعل جميع الإعدادات الخاصة بك.</string>
+    <string name="Logout">الخروج</string>
+    <string name="LogoutDes">تسجيل الخروج حسابك بأمان.</string>
+    <string name="Remove">مسح </string>
+    <string name="Alert">محزر!!!</string>
+    <string name="AreYouSureWantToDelete">هل انت متأكد من عملية المسح </string>
+    <string name="BookingDetails">تفاصيل الحجز</string>
+    <string name="BookingSuccess">نجاح الحجز</string>
+
+
+
+    <string name="AddCard">إضافة بطاقة</string>
+    <string name="SUBMIT">خضع</string>
+    <string name="YourSavedBankAccountsAppearHere">ستظهر حساباتك البنكية المحفوظة \ n هنا</string>
+    <string name="Nearbynetworkwillappearhere">سوف تظهر الشبكة القريبة هنا</string>
+    <string name="PleaseSelectYourCountry">يرجى اختيار بلدك</string>
+    <string name="SearchCountryName">بحث البلد بالاسم</string>
+    <string name="NoCountryFound">لم يتم العثور على بلد</string>
+    <string name="YourSavedCardsAppearHere">ستظهر بطاقاتك المحفوظة \ n هنا</string>
+    <string name="AccountHolderName">اسم صاحب الحساب البنكي </string>
+    <string name="BankName">اسم البنك </string>
+    <string name="AccountNumber">رقم الحساب </string>
+    <string name="FingerPrint">استخدام بصمة اليد </string>
+    <string name="Add">اضف </string>
+    <string name="UseFingerPrint">استخدام بصمة اليد </string>
+
+    <!--***************************NearBy Screen***********************************-->
+    <string name="Shops">المتاجر </string>
+    <string name="Seller">عملاء</string>
+    <string name="Search">البحث عن طريق اسم المتجر</string>
+    <string name="SearchFeed">ابحث باسم المتجر او العرض </string>
+    <string name="Navigate">بحث </string>
+    <string name="RewardAlert">استمتع بالمكافآت كما لم يحدث من قبل.</string>
+    <string name="Reward">عروض </string>
+    <string name="OFFER">عرض</string>
+    <string name="ShopOffer">عرض المتجر </string>
+    <string name="Nostoresfound">لم يتم العثور على متاجر</string>
+    <string name="Nosellerssfound">لم يتم العثور على البائعين</string>
+    <string name="Searchbyagentsname">البحث عن طريق اسماء الوكلاء</string>
+
+    <!--***************************Settings Screen***********************************-->
+    <string name="Actions">تشغيل </string>
+    <string name="LanguageSelection">اللغة </string>
+    <string name="NotificationBlock">قائمة التنبيهات </string>
+    <string name="ChangePin">تغيير الرمز السري </string>
+    <string name="Changepassword">تغيير كلمة المرور </string>
+    <string name="English">الإنجليزية</string>
+    <string name="Arabic">عربى</string>
+    <string name="Portuguese">البرتغالية</string>
+    <string name="Hindi">الهندية</string>
+    <!--***************************Profile Screen***********************************-->
+    <string name="Profile">الملف الشخصي</string>
+    <string name="MyProfile">ملفك الشخصي </string>
+    <string name="ShowQR">اعرض هذا الكود للاستقبال المبلغ </string>
+    <string name="QRcodeAbove">الكود الرقمي بالأعلى يمثل هويتك الشخصية </string>
+    <string name="EditProfile">تعديل ملفك الشخصي </string>
+    <string name="UpdateKYC">تحديث معلومات العميل </string>
+    <string name="SavedCards">البطاقات المحفوظة </string>
+    <string name="BankAccounts">الحساب البنكي </string>
+    <string name="Update">تحديث </string>
+    <string name="Selectyourcountry">اختار بلدك</string>
+
+    <!--***************************Referal Screen***********************************-->
+    <string name="ShareReferral">شارك دعوة فلوسي </string>
+    <string name="ViewReferral">عرض الدعوه </string>
+    <string name="YourReferralCode">كود الدعوة </string>
+    <string name="ShareLink">شارك عن طريق نسخ الرابط </string>
+    <string name="Copy">نسخ</string>
+    <string name="FirstText">دعوة صديقك ل ، وتحصل</string>
+    <string name="SecondText">بعد تسجيل صديقك معنا.</string>
+    <string name="ThirdText">سوف صديقك أيضا الحصول عليها</string>
+    <string name="ReferFriend">اخبر صديقك عن فلوسي </string>
+    <string name="BeneficiaryEmpty">لائحة المستفيدين فارغة </string>
+
+    <!--***************************TRANSACTION HISTORY  SCREEN ***********************************-->
+    <string name="TransactionHistory">كشف حساب </string>
+    <string name="All">الكل </string>
+    <string name="Paid">تم الدفع</string>
+    <string name="Received">تم استلام المبلغ </string>
+    <string name="Topup">تعبئة المحفظة </string>
+    <string name="Refund">استرجاع </string>
+    <string name="BonusCredited">تم اضافة نقاط الدعوة </string>
+    <string name="Creditwallet">الائتمان للمحفظة</string>
+    <string name="AmountTransferredTo">المبلغ المحول إلى</string>
+    <string name="Failed">فشل</string>
+    <string name="Pending">قيد الانتظار</string>
+    <string name="Success">نجاح</string>
+    <string name="RecentTransactionAppearHere">ستظهر معاملتك الأخيرة \ n هنا</string>
+    <string name="WithdrawnTransactions">المعاملات المسحوبة</string>
+    <string name="WithdrawnFee">رسوم السحب</string>
+    <string name="CreditedToBank">تم اضافة المبلغ للحساب البنكي </string>
+    <string name="Transactedon">تمت العملية في </string>
+    <string name="OrderId">Tرقم العملية </string>
+    <string name="MyTransactions">معاملاتي</string>
+    <string name="YouHaveEarned">كنت قد كسبت</string>
+    <string name="PointsReduced">نقاط مخفضة</string>
+    <string name="Offer">العروض </string>
+    <string name="Tax">ضريبة</string>
+    <string name="EarnedPoints">النقاط المكتسبة</string>
+    <string name="Congratulation">Cتهنئة</string>
+    <string name="Need">بحاجة إلى</string>
+    <string name="MorePointsFor">المزيد من النقاط ل</string>
+    <string name="off">عدم تفعيل </string>
+    <string name="YouEligibleFor">أنت مؤهل للحصول على</string>
+    <string name="OffOnYouNextPurchase">قبالة عليك شراء المقبل</string>
+    <string name="Points">نقاط</string>
+    <!--***************************PAY MONEY SCREEN***********************************-->
+    <string name="Entermobilenumbertopay">ادخل رقم الموبايل للدفع </string>
+    <string name="OR">او</string>
+    <string name="Chooseforacontact">اختر للحصول على قائمة المستفيد</string>
+    <string name="Entermobilenumbertorequest">أدخل رقم الهاتف المحمول لطلب</string>
+    <!--***************************REQUEST MONEY SCREEN***********************************-->
+    <string name="ConfirmDetails">تأكيد التفاصيل الخاصة بك للمتابعة</string>
+    <string name="Amount">المبلغ </string>
+    <string name="Description">وصف : </string>
+    <string name="description">وصف : </string>
+    <string name="Requestnow">اطلب الآن</string>
+
+    <!--***************************MyTransactionScreen***********************************-->
+    <string name="ServiceFee">رسوم الخدمات </string>
+    <string name="PopPayFee">رسوم</string>
+    <string name="TotalPayable">مجموع المبلغ المستحق للدفع </string>
+    <string name="PoppayId">معرف Txn</string>
+    <string name="Tip">اضف اكرامية </string>
+    <string name="RewardOffer">العروض </string>
+    <string name="Total">الاجمالي </string>
+    <string name="TransactionDetail">تفاصيل الصفقة</string>
+        <string name="RefundAmount">المبلغ المسترد</string>
+    <string name="RefundType">استرداد نوع</string>
+    <string name="RefundDate">تاريخ الاسترداد</string>
+    <string name="TransactionID">معرف المعاملة</string>
+
+
+    <!--*************************** PaymentDetailsScreen***********************************-->
+    <string name="Name">الاسم </string>
+    <string name="ServiceFeeDoller">رسوم الخدمة</string>
+    <string name="NetPayable">صافي المدفوعات</string>
+    <string name="PayNow">ادفع الآن</string>
+    <string name="Submit">خضع</string>
+
+    <!--*************************** PaymentDetailsScreen***********************************-->
+    <string name="Family">عائلة</string>
+    <string name="Business">المتجر </string>
+
+    <!--*************************** PopCoins Screen***********************************-->
+    <string name="Totalavailablecoins">مجموع المكافآت المتاحة</string>
+    <string name="PopCoinHistory">المكافآت التاريخ</string>
+    <string name="Coinreceived">تلقى عملة</string>
+    <string name="SENDREWARDS">إرسال المكافآت</string>
+
+    <!--*************************** Success Screen***********************************-->
+    <string name="PaidSuccess">تمت عملية الدفع بنجاح </string>
+    <string name="For">عن </string>
+    <string name="NeedHelp">تحتاج مساعدة؟</string>
+
+    <!--*************************** Wallet Screen***********************************-->
+    <string name="MyWallet">محفظتك</string>
+    <string name="Withdrawn">سحب </string>
+    <string name="Availablebalance">الرصيد المتوفر </string>
+    <string name="BalanceLimit">حد الرصيد هذا الشهر</string>
+    <string name="AddMoney">إضافة المال</string>
+    <string name="Withdraw">سحب</string>
+    <string name="EnterAmount">ادخل المبلغ </string>
+    <string name="PermonthText">في الشهر ، يمكنك إضافة ما يصل إلى \ n TTD $ 20000 في محفظتك لماذا؟</string>
+    <string name="PermonthText2">في محفظتك</string>
+    <string name="Why">لماذا ا؟</string>
+    <string name="Confirm">تأكيد</string>
+    <string name="Creditdebit"> كي نت/ بطاقة ائتمانية </string>
+    <string name="SaveCards">احفظ البطاقة </string>
+    <string name="CardNumber">رقم البطاقة </string>
+    <string name="CVV">رقم التحقق من البطاقة </string>
+    <string name="mmyy">شهر شهر / سنة سنة </string>
+    <string name="Savemycard">احفظ بطاقتي للاستخدام في المستقبل</string>
+    <string name="EnteredAmount">المبلغ المدخل </string>
+    <string name="CreditedtoBank">تم اضافة المبلغ للحساب البنكي </string>
+    <string name="Withdrawfee">رسوم السحب </string>
+    <string name="inclusiveTax">ضريبة شاملة</string>
+    <string name="SelectBankAccount">اختر الحساب البنكي </string>
+    <string name="AddBankAccount">اضف حساب بنكي جديد </string>
+    <string name="ProceedToPay">اكمل عملية الدفع </string>
+    <string name="Tappay">اختر البطاقة المراد استخدامها </string>
+    <string name="Westoreyourcard">نحن نقوم بحفظ بيانتك البنكية في نظام دفع آمن </string>
+    <string name="Change">استبدال </string>
+    <string name="Notallowed">غير مسموح</string>
+    <string name="PleaseEnterAmount">يرجى ادخال المبلغ </string>
+    <string name="PleaseEnterValidAmount">يرجى إدخال مبلغ صالح</string>
+    <string name="PleaseAddBankAccount">الرجاء إضافة حساب مصرفي جديد</string>
+    <string name="PleaseEnterMinimumAmount">يرجى ادخال الحد الادنى للمبلغ </string>
+    <string name="MakeAnotherWithdraw">جعل سحب آخر؟</string>
+    <string name="Yes">تأكيد </string>
+    <string name="No">رفض </string>
+    <string name="PaidSuccessfully">تمت عملية الدفع بنجاح </string>
+    <string name="UnauthorizedAccess">دخول غير مرخص</string>
+    <string name="PleaseEnterValidCardDetails">يرجى ادخال بيانات صحيحة للبطاقة المستخدمه </string>
+
+    <!--*************************** Event Screen***********************************-->
+    <string name="SearchEvent">البحث عن طريق معرف ، اسم</string>
+        <string name="AboutEvent">عن المناسبة</string>
+    <string name="Organizers">المنظمون</string>
+    <string name="TermsCond">شروط  &amp;؛ كوند</string>
+    <string name="BOOK">احجز </string>
+    <string name="YourRecentEventsAppearHere">ستظهر هنا قائمة الأحداث الأخيرة \ n</string>
+    <string name="CurrentlyEventList">حاليا لا توجد اية مناسبات </string>
+    <string name="EventDescription">تفاصيل المناسبة </string>
+    <string name="BusinessName">اسم الشركة </string>
+    <string name="ReviewBooking">عرض الحجز </string>
+    <string name="TicketDetails">تفاصيل التذكرة </string>
+    <string name="NoTickets">رقم التذكرة </string>
+    <string name="DateTime">الوقت و التاريخ </string>
+    <string name="Subtotal">المبلغ الاجمالي </string>
+    <string name="Servicetax">رسوم الانترنت </string>
+    <string name="ConfirmationMessage">سوف يتم ارسال رسالة التأكيد الى</string>
+    <string name="YourRecentTransactionWillAppearHere">ستظهر معاملتك الأخيرة \ n هنا</string>
+    <string name="RequestReceivedFrom">تم استلام الطلب من</string>
+    <string name="RequestSentTo">تم إرسال الطلب إلى</string>
+    <string name="MoneyRequestSuccess">طلب المالReject النجاح</string>
+    <string name="RejectRequest"> رفض الطلب</string>
+    <string name="SENDMONEY">ارسل المبلغ </string>
+    <string name="FROM">من عند</string>
+    <string name="EventName">اسم المناسبة </string>
+    <string name="TicketBookedSuccessfully">تم حجز تذكرة المناسبة بنجاح </string>
+    <string name="Venu">المكان </string>
+    <string name="Date">تاريخ</string>
+    <string name="TicketType">نوع التذكرة </string>
+    <string name="Time">زمن</string>
+    <string name="Price">السعر</string>
+    <string name="TicketID">معرف التذكرة</string>
+    <string name="BookingID">رقم الحجز </string>
+    <string name="VERIFIED">يدقق</string>
+        <string name="SelectDate">اختار اليوم </string>
+    <string name="SelectTime">اختار الوقت </string>
+
+
+    <!--*************************** Event Screen***********************************-->
+    <string name="PleaseTryAgain">حدث خطأ ما. أعد المحاولة من فضلك</string>
+    <string name="ValidMobileNumber">ادخل رقم صحيح</string>
+    <string name="EnterOldPassword">يرجى ادخال كلمة المرور السابقة </string>
+    <string name="EnterNewPassword">يرجى ادخال كلمة المرور الجديدة </string>
+    <string name="EnterValidPassword">الرجاء إدخال كلمة مرور صالحة</string>
+    <string name="NoEventfound">لم يتم العثور على حدث</string>
+
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">مسح الرمز الشريطى</string>
+    <string name="no_barcode_captured">لم يتم التقاط الباركود</string>
+    <string name="barcode_error_format">خطأ في قراءة الباركود:٪ 1 $ s</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">موافق</string>
+    <string name="permission_camera_rationale">الوصول إلى الكاميرا ضروري للكشف</string>
+    <string name="no_camera_permission">لا يمكن تشغيل هذا التطبيق لأنه لا يملك إذن الكاميرا. سيتم الآن الخروج من التطبيق.</string>
+    <string name="low_storage_error">لا يمكن تنزيل تبعيات كاشف الوجه نظرًا لانخفاض سعة تخزين الجهاز</string>
+
+
+    <!--Validation -->
+    <string name="BookingHistory">تاريخ الحجز</string>
+    <string name="UpComingEvents">المناسبات القادمة </string>
+    <string name="CompletedEvents">المناسبات التي تمت </string>
+    <string name="YourRecentEventsAppear">ستظهر هنا قائمة الأحداث الأخيرة \ n</string>
+    <string name="Onwards">فصاعدا</string>
+
+    <!--Validation -->
+    <string name="PleaseEnterCardNumber">الرجاء إدخال رقم البطاقة</string>
+    <string name="PleaseEnterExpiryYear">الرجاء إدخال سنة الانتهاء</string>
+    <string name="PleaseEnterValidExpiryYear">الرجاء إدخال سنة انتهاء صالحة </string>
+    <string name="PleaseEnterexpiryMonth">يرجى ادخال الشهر الذي ينتهي فيه العرض </string>
+    <string name="PleaseEnterValidexpiryMonth">الرجاء إدخال شهر انتهاء صالح</string>
+    <string name="PleaseEnterCvvnumber">الرجاء إدخال رقم CVV</string>
+    <string name="PleaseEnterValidCvvnumber">الرجاء إدخال رقم CVV صالح</string>
+    <string name="PleaseEnterTheAmount">الرجاء إدخال المبلغ</string>
+    <string name="PleaseEnterTheAmountGrater">الرجاء إدخال المبلغ أكبر من 0</string>
+
+
+    <!--Kidss -->
+    <string name="RequestMoneyFromParents">طلب المال من والديك.</string>
+    <string name="PayMoneyToAnyMerchants">دفع المال لأي التجار rpay.</string>
+    <string name="TransactionHistoryDes">معاملاتك السابقة على تطبيق rpay.</string>
+    <string name="OffersNearby">عروض قريبة</string>
+    <string name="OffersNearbyDec">عروض التاجر القريبة الخاصة بك.</string>
+    <string name="EventsDec">قائمة معلومات الأحداث</string>
+    <string name="SendSticker">إرسال ملصقات</string>
+    <string name="SendStickerDec">إرسال ملصقات لأصدقائك</string>
+    <string name="Theme">المواضيع</string>
+    <string name="ThemeDec">تغيير الموضوع الخاص بك.</string>
+    <string name="ScanQRpay">مسح QR للدفع</string>
+    <string name="MyKid">أطفالي</string>
+    <string name="MyKidDes">اتبع أطفالك.</string>
+    <string name="SelectTheme">اختر نمطا</string>
+    <string name="DOB">تاريخ الولادة</string>
+    <string name="Age">عمر</string>
+    <string name="AddChildInformation">أضف معلومات طفلك</string>
+    <string name="SchoolName">اسم المدرسة</string>
+    <string name="SchoolAddress">عنوان المدرسة</string>
+    <string name="PleaseEnterName">الرجاء إدخال اسم</string>
+    <string name="PleaseEnterDob">الرجاء إدخال تاريخ الميلاد</string>
+    <string name="PleaseEnterAge">يرجى إدخال العمر</string>
+    <string name="PleaseEnterValidAge">يرجى إدخال عمر صالح</string>
+    <string name="PleaseEnterSchoolName">الرجاء إدخال اسم المدرسة</string>
+    <string name="PleaseEnterSchoolAddress">الرجاء إدخال عنوان المدرسة</string>
+    <string name="Active">نشيط</string>
+    <string name="DeActive">النشطة</string>
+    <string name="Appblock">حالة التطبيق</string>
+    <string name="Apply">تطبيق</string>
+    <string name="Gender">جنس : </string>
+    <string name="Male">الذكر</string>
+    <string name="Female">إناثا</string>
+
+    <string name="Share">شارك</string>
+    <string name="SharePost">مشاركة هذا المنشور في وسائل التواصل الاجتماعي</string>
+    <string name="HidePost">إخفاء هذا المنشور</string>
+    <string name="IDontWantPost">لا أريد مشاهدة هذا المنشور في خلاصتي</string>
+    <string name="Unfollowtheshop">قم باستبدال المتجر</string>
+    <string name="StopSeeingFeedsShop">التوقف عن رؤية يغذي من هذا المحل</string>
+    <string name="ShareAnSticker">مشاركة رسالة</string>
+    <string name="POST">بريد</string>
+    <string name="History">التاريخ</string>
+    <string name="PleaseTypeYourMssage">من فضلك اكتب رسالتك</string>
+
+    <!--Recharge-->
+    <string name="Network">شبكة الاتصال</string>
+    <string name="SelectService">اختر الخدمة</string>
+    <string name="TotalAmount">المبلغ الإجمالي</string>
+    <string name="Nickname">كنية</string>
+    <string name="PROCCEDTOPAY">المضي قدما في الدفع</string>
+    <string name="RECENTPAYMENT">الدفع الأخير</string>
+    <string name="Etisalat">اتصالات</string>
+    <string name="Du">DU</string>
+    <string name="Salik">سالك</string>
+    <string name="SelectPlan">اختر خطة</string>
+    <string name="NoInternetConnection">لا يوجد اتصال إنترنت!</string>
+    <string name="Locationisdisabled">الموقع معطل</string>
+    <string name="LocationisdisabledDEC">تم تعطيل خدمة الموقع ، يرجى تمكين الموقع</string>
+    <string name="Permissionnecessary">إذن اللازمة</string>
+    <string name="ExternalStoragePermissionNecessary">إذن التخزين الخارجي ضروري</string>
+    <string name="CameraPermissionNecessary">إذن الكاميرا ضروري</string>
+    <string name="Pleaseselectyouroperator">يرجى اختيار المشغل الخاص بك</string>
+    <string name="pleasechooseanothernumber">الرجاء اختيار رقم آخر</string>
+    <string name="Prepaid">مسبقة الدفع</string>
+    <string name="Postpaid">الدفع الآجل</string>
+    <string name="SelectOperator">اختر المشغل</string>
+
+    <!---GenerateQrPScreen-->
+    <string name="Insufficientwalletbalance">عدم كفاية رصيد المحفظة</string>
+
+    <!---Event Ticket Screen-->
+
+    <string name="pleaseselectadate">يرجى اختيار تاريخ</string>
+    <string name="pleaseselectatime">يرجى اختيار الوقت</string>
+
+    <!-- Review Bookking Screen-->
+
+    <string name="InsufficientRewards">المكافآت غير كافية</string>
+    <!-- EventHistoryScreen-->
+
+    <string name="Noeventsfound">لم يتم العثور على الأحداث</string>
+    <!--AlternatewalletScreen-->
+        <string name="Nocards">لا توجد بطاقة (بطاقات))</string>
+    <string name="MoneyloadtowalletSuccessfully">تحميل الأموال للمحفظة بنجاح</string>
+    <string name="Version">-الإصدار</string>
+</resources>

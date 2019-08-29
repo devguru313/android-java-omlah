@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.omlah.customer">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permisssion.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <uses-feature android:name="android.hardware.fingerprint" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+
+
+    <application
+        android:name="com.omlah.customer.common.MyApplication"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name="com.omlah.customer.base.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.omlah.customer.account.GetStartedScreen"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.omlah.customer.tabhome.PromotionDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.qrscanner.QrcodeScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.omlah.customer.qrscanner.GenerateQRPayScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.qrscanner.RippleScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.introscreen.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.common.language.ui.BlankDummyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.LoginScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.SignUpScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.ForgetPasswordScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.ReferaFriendScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.SavedCardsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.MyProfileScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.BankAccountsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.AddCardScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.ChangePasswordScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.CountrySelectScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.base.BaseScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.TransactionHistoryScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabhome.PayMoneyScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.omlah.customer.tabhome.RequestMoneyScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabhome.MyTransactionScreen"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.omlah.customer.tabhome.SuccessScreen" />
+        <activity
+            android:name="com.omlah.customer.tabhome.ContactListScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.omlah.customer.tabmore.MyBeneficiaryScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.PopCoinsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.rewards.RewardsHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.rewards.RewardDetailsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.MoneyRequestListScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.MoneyRequestSuccessScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.SettingsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.AddNewBankAccountScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.mywallet.NewWalletScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.mywallet.AlternateWalletScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.BusinessAccountScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.WithdrawTransactionScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.SendRequestMoneyScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.AddBeneficiary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabevent.EventDetailsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabevent.EventTicketScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabevent.ReviewBookingScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabevent.TicketSuccessScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabfeed.FeedScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.tabfeed.FeedVideoPlayer"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.omlah.customer.tabevent.EventHistoryScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.account.ProfileScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.tabmore.smartcard.SmartCardScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.otp.OtpVerificationScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name="com.omlah.customer.otp.PassCodeCreateScreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.otp.PassCodeVerifiedScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.otp.PassCodeChangeScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.otp.OldPassCodeVerified"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.otp.LuncherPassCodeCheck"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.otp.ForgetPassCode"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.omlah.customer.tabnearby.ShopOfferScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabhome.NewAddMoneyScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.RefundTransactionScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabhome.CouponCodeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabhome.RedeemPointsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omlah.customer.tabmore.MyVoucherCodeScreen"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.omlah.customer.base.LanguageSelectionScreen"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="@android:theme"/>
+        <activity android:name="com.omlah.customer.tabhome.recharge.RechargeScreen"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.omlah.customer.tabhome.recharge.BillPaymentScreen" />
+        <activity android:name="com.omlah.customer.tabhome.recharge.RechargeSuccessScreen" />
+        <activity android:name="com.omlah.customer.qrscanner.CCScanAndPayScreen" />
+        <activity android:name="com.omlah.customer.qrscanner.CMScanAndPayScreen" />
+        <activity android:name="com.omlah.customer.otp.NewDeviceFound" />
+        <activity android:name="com.omlah.customer.tabmore.TransactionDetailsScreen" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAg23jAVQfzf7ArxQQW8e-B1NlfhwpFHzI" />
+
+
+        <!-- Firebase Notifications -->
+        <service android:name="com.omlah.customer.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.omlah.customer.fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <!-- SMS Verification -->
+        <receiver android:name="com.omlah.customer.otp.MySMSBroadCastReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c4e576993f6398206ccf1bef889db34c7d71ef48" />
+
+        <meta-data
+            android:name="CLOUDINARY_URL"
+            android:value="cloudinary://753231478197322:sY5D6RyOOKLiupJAVhVMiW1XCSY@dbe8ynr6c"/>
+
+        <receiver
+            android:name="com.omlah.customer.common.network.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

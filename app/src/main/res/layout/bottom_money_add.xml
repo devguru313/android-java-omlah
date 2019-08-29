@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/bannertag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ADDMONEY"
+        android:textSize="14sp"
+        android:fontFamily="@font/normal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/closeButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="15dp"
+        android:src="@drawable/close_icon_black"/>
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bannertag"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gray_white_border">
+
+        <TextView
+            android:id="@+id/currencyCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:text="AED"/>
+
+        <EditText
+            android:id="@+id/addmoneyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/EnterAmount"
+            android:layout_toRightOf="@+id/currencyCode"
+            android:layout_toEndOf="@+id/currencyCode"
+            android:layout_toStartOf="@+id/continuebutton"
+            android:layout_toLeftOf="@+id/continuebutton"
+            android:inputType="numberDecimal"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/continuebutton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#c6c6c6"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/Continue"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/mainLayout"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/thousandButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toStartOf="@+id/secondButton"
+            android:layout_toLeftOf="@+id/secondButton"
+            android:background="@drawable/gray_white_border"
+            android:textAllCaps="false"
+            android:text="+ 1000"/>
+
+        <Button
+            android:id="@+id/secondButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/gray_white_border"
+            android:textAllCaps="false"
+            android:text="+ 500"/>
+
+        <Button
+            android:id="@+id/thirdButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toEndOf="@+id/secondButton"
+            android:layout_toRightOf="@+id/secondButton"
+            android:background="@drawable/gray_white_border"
+            android:textAllCaps="false"
+            android:text="+ 100"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

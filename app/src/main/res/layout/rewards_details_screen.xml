@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/contentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="visible">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_file"
+        android:clipToPadding="false"
+        android:contentInsetEnd="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetStart="0dp"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/backIconImageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:padding="16.5dp"
+                android:src="@drawable/back_arrow"/>
+
+            <TextView
+                android:id="@+id/actionBarTitleTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:layout_toRightOf="@+id/backIconImageView"
+                android:layout_toEndOf="@+id/backIconImageView"
+                android:text="Rewards"
+                android:textColor="@color/white"
+                android:fontFamily="@font/normal"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/bannertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/EarnedPoints"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/rewardBalanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bannertext"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="7dp"
+            android:text="500"
+            android:textStyle="bold"
+            android:fontFamily="@font/normal"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            />
+
+        <TextView
+            android:id="@+id/offerConditionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/rewardBalanceTextView"
+            android:text="Need 50 more points for 25% off"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/seekbarStartAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:textSize="12.5sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/offerConditionTextView"/>
+
+        <com.omlah.customer.common.customseekbar.DynamicSeekBarView
+            android:id="@+id/rewardSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            app:dsbv_thumbDrawable="@drawable/custom_seekbar_thumb_default"
+            app:dsbv_progressDrawable="@drawable/progress_drawable_default"
+            android:layout_below="@+id/offerConditionTextView"/>
+
+        <TextView
+            android:id="@+id/finalRewardAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="12.5sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/offerConditionTextView"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/offerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/topLayout"
+        android:background="#8dfaefbf">
+
+        <ImageView
+            android:id="@+id/handImageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/hand" />
+
+        <TextView
+            android:id="@+id/bannerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/handImageView"
+            android:layout_toEndOf="@+id/handImageView"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/Congratulation"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/offerBannerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/handImageView"
+            android:layout_toEndOf="@+id/handImageView"
+            android:layout_below="@+id/bannerNameTextView"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/earningHistoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_below="@+id/offerLayout"></ListView>
+
+    <TextView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:drawableTop="@drawable/timer"
+        android:text="@string/YouRecentRewardsWillAppearHere"/>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/toolbar">
+
+        <RadioGroup
+            android:id="@+id/tabRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@+id/upComingButton"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/upComingButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tabs_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/UpComingEvents"
+                android:textColor="@drawable/selected_tab_textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/completedButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tabs_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/CompletedEvents"
+                android:textColor="@drawable/selected_tab_textcolor"
+                android:textSize="13sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/eventListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_below="@+id/tabLayout"
+        android:visibility="visible"></ListView>
+
+    <TextView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:drawableTop="@drawable/timer"
+        android:gravity="center"
+        android:text="@string/YourRecentEventsAppearHere"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

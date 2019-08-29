@@ -1,0 +1,11 @@
+com.rampo.updatechecker
+drawable ic_stat_amazon
+drawable ic_stat_play_store
+string amazonStore
+string dialogNegativeButton
+string dialogNeutralButton
+string dialogPositiveButton
+string downloadFor
+string googlePlay
+string library_name
+string newUpdateAvailable

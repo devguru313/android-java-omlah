@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingRight="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/seller" />
+
+    <RelativeLayout
+        android:id="@+id/shopDeatilslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/typeImageView"
+        android:layout_toRightOf="@+id/typeImageView">
+
+        <TextView
+            android:id="@+id/sellerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seller Name"
+            android:textSize="12sp"
+            android:textStyle="bold"
+
+            android:fontFamily="@font/normal"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toRightOf="@+id/distanceTextView"
+            android:layout_toEndOf="@+id/distanceTextView"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableStart="@drawable/location"
+
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/normal"
+            android:gravity="right"
+            android:text=""
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/shopAddresstextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="56-58 Supermarket Supermarket for groceries and more"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toRightOf="@+id/distanceTextView"
+            android:layout_toEndOf="@+id/distanceTextView"
+            android:layout_below="@+id/sellerNameTextView" />
+
+        <TextView
+            android:id="@+id/navigateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Navigate"
+            android:textSize="12sp"
+            android:layout_alignBottom="@+id/shopAddresstextView"
+            android:textColor="@color/red"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_below="@+id/shopDeatilslayout"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/typeImageView"
+        android:layout_toEndOf="@+id/typeImageView"/>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="60dp"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:elevation="5dp"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/white_round"/>
+
+
+
+</RelativeLayout>
+

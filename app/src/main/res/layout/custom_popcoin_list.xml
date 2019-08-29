@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/popcoin" />
+
+    <RelativeLayout
+        android:id="@+id/detailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/typeImageView">
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paid for Shop"
+            android:textSize="12sp"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/amountTextView"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-TTD $500"
+            android:textSize="12sp"
+            android:fontFamily="@font/normal"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/shopNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cascade store"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/typeTextView" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="July 28, 01.59 pm"
+            android:textSize="11sp"
+            android:fontFamily="@font/normal"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/shopNameTextView" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lineColor"
+        android:layout_below="@+id/detailsLayout"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/typeImageView"/>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/toolbar"
+        android:background="#F4F9FC">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scrollbars="none">
+
+            <RadioGroup
+                android:id="@+id/tabRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkedButton="@+id/allButton"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/allButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tabs_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/All"
+                    android:textColor="@drawable/selected_tab_textcolor"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/paidButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tabs_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/Paid"
+                    android:textColor="@drawable/selected_tab_textcolor"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/receivedButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tabs_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/Received"
+                    android:textColor="@drawable/selected_tab_textcolor"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/withdrawButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tabs_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/Withdrawn"
+                    android:textColor="@drawable/selected_tab_textcolor"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/topupButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tabs_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/Topup"
+                    android:textColor="@drawable/selected_tab_textcolor"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/refundButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tabs_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/Refund"
+                    android:textColor="@drawable/selected_tab_textcolor"
+                    android:textSize="13sp" />
+
+
+            </RadioGroup>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="September 2017"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/calendarImageView"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/calendar" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lineColor" />
+
+    <ListView
+        android:id="@+id/transactionHistoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabLayout"
+        android:divider="@null"
+        android:visibility="visible"></ListView>
+
+    <ListView
+        android:id="@+id/withDrawHistoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabLayout"
+        android:divider="@null"
+        android:visibility="gone"></ListView>
+
+
+    <TextView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:drawableTop="@drawable/timer"
+        android:gravity="center"
+        android:text="@string/RecentTransactionAppearHere"
+        android:visibility="gone" />
+
+</RelativeLayout>

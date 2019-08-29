@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/tabRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkedButton="@+id/allButton"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/allButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tabs_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/SCANQRCODE"
+            android:textColor="@drawable/selected_tab_textcolor"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/findButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tabs_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/FINDNEARBY"
+            android:textColor="@drawable/selected_tab_textcolor"
+            android:textSize="13sp" />
+
+    </RadioGroup>
+
+    <com.omlah.customer.qrscanner.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/tabRadioGroup"
+        android:visibility="visible" />
+
+    <com.omlah.customer.qrscanner.ScannerOverlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/tabRadioGroup"
+        android:background="#44000000"
+        android:visibility="visible"
+        app:line_color="#7323DC"
+        app:line_speed="6"
+        app:line_width="1"
+        app:square_height="300"
+        app:square_width="300" />
+
+    <RelativeLayout
+        android:id="@+id/tezLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/tabRadioGroup"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/payMoneyButton"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/centerLine"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gradient_corner">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/arrow_up_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"
+                android:fontFamily="@font/normal"
+                android:text="@string/PAYNOW"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/centerLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/receiveMoneyButton"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/centerLine"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gradient_corner_outline">
+
+            <ImageView
+                android:id="@+id/receviewIconImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/arrow_down_white" />
+
+            <TextView
+                android:id="@+id/receiveTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"
+                android:fontFamily="@font/normal"
+                android:text="@string/RECEIVE"
+                android:textColor="#0EA18D"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentBottom="true"
+            android:background="#F5F5F5">
+
+            <TextView
+                android:id="@+id/bannertext"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/Entermobilenumbertopay"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+           <!-- <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabArrowButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/mobileNumberButton"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/mobileNumberButton"
+                android:backgroundTint="@color/colorPrimary"
+                android:src="@drawable/right_arrow_svg"
+                android:tint="@color/white"
+                android:visibility="gone"
+                app:elevation="5dp"
+                app:fabCustomSize="40dp"
+                app:maxImageSize="20dp" />-->
+
+            <RelativeLayout
+                android:id="@+id/mobileNumberButton"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/bannertext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccpPicker"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:ccp_hintExampleNumber="true"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/numberCodeSpinner"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/numberCodeSpinner"
+                    android:src="@drawable/spinner_arrow_small"/>
+
+                <EditText
+                    android:id="@+id/mobileNumberEdiText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/numberCodeSpinner"
+                    android:paddingLeft="10dp"
+                    android:layout_toLeftOf="@+id/contactImageView"
+                    android:hint="@string/MobileNumber"
+                    android:inputType="phone"
+                    android:maxLength="15"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/contactImageView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/contacts_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignStart="@+id/numberCodeSpinner"
+                    android:layout_alignEnd="@+id/contactImageView"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/lineColor" />
+
+            </RelativeLayout>
+
+            <!--<RelativeLayout
+                android:id="@+id/mobileNumberButton"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/bannertext"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/contactImageView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/contacts_icon" />
+
+                <EditText
+                    android:id="@+id/mobileNumberEdiText"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginStart="37dp"
+                    android:background="@android:color/transparent"
+                    android:digits="0123456789"
+                    android:hint="@string/MobileNumber"
+                    android:inputType="phone"
+                    android:maxLength="15"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/lineColor" />
+
+            </RelativeLayout>-->
+
+            <Button
+                android:id="@+id/fabArrowButton"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:text="Proceed"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/normal"
+                android:textStyle="bold"
+                android:visibility="visible"
+                android:layout_below="@+id/mobileNumberButton"
+                android:background="@drawable/gradient_corner"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/orTextView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/white_round"
+        android:gravity="center"
+        android:text="@string/OR"
+        android:textSize="13sp" />
+
+</RelativeLayout>
